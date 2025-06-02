@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_GHSMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa4dc17bc73bf21481f9387efc12c967d3f4209b")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_GHSMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_GHSMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
