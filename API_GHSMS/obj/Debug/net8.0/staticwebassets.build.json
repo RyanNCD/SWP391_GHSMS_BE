@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KFAB+qBnqtYhgOHEKwcWEbUKdODSPrwH4o+aXGOFAnI=",
+  "Source": "API_GHSMS",
+  "BasePath": "_content/API_GHSMS",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

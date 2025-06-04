@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "yVK4C/gOJxVnE7dp8dxTvLulP0eC2RD3WGuIK78g5vbqjPgVdlrS22nKTKDLod6x+jQpWRDWvo5I9EI2nLW0aw==",
   "success": true,
   "projectFilePath": "D:\\SWP391_GenderHealthcareServiceManagementSystem\\Service\\Service.csproj",
@@ -67,5 +68,11 @@
     "C:\\Users\\Acer\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "O+SFncj038I=",
+  "success": true,
+  "projectFilePath": "D:\\SWP391\\SWP391_GHSMS_BE\\Service\\Service.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> Stashed changes
   "logs": []
 }
