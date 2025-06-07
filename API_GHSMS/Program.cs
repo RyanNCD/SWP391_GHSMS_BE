@@ -1,3 +1,9 @@
+using API_GHSMS.Controllers;
+using Repository.Models;
+using Repository.Repository;
+using Service.Implement;
+using Service.Interface;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +12,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<SWP391GHSMContext>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ITestService, TestService>();
+builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<TestRepository>();
 
 var app = builder.Build();
 

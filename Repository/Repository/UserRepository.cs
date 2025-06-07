@@ -11,6 +11,6 @@ namespace Repository.Repository
     public class UserRepository : GenericRepository<User>
     {
         public UserRepository() { }
-        public UserRepository(Swp391ghsmContext context) => _context = context;
+        public UserRepository(SWP391GHSMContext context) => _context = context;
     }
 }

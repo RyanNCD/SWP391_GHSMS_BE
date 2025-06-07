@@ -2,7 +2,7 @@
 using Repository.Models;
 using Service.Interface;
 
-namespace YourNamespace.Controllers
+namespace API_GHSMS.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
