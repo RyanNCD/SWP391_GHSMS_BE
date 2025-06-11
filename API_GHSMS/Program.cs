@@ -15,8 +15,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<SWP391GHSMContext>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITestService, TestService>();
+builder.Services.AddScoped<IDashBoardService,DashBoardService>();
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<TestRepository>();
+builder.Services.AddScoped<DashBoardRepository>();
 
 var app = builder.Build();
 

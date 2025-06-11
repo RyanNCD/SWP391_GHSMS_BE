@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Repository.DTO;
 using Repository.Models;
 using Service.Interface;
 
@@ -9,10 +10,12 @@ namespace API_GHSMS.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
+       
 
         public UserController(IUserService userService)
         {
             _userService = userService;
+
         }
 
         [HttpGet]
@@ -69,5 +72,25 @@ namespace API_GHSMS.Controllers
                 return NotFound("User Not Found");
             }
         }
+        [HttpGet("user-profile/{id}")]
+        public async Task<IActionResult> GetProfile(int id)
+        {
+            var profile = await _userService.GetProfileAsync(id);
+            if (profile == null)
+                return NotFound();
+
+            return Ok(profile);
+        }
+
+        [HttpPut("user-profile")]
+        public async Task<IActionResult> UpdateProfile([FromBody] UserProfileDTO dto)
+        {
+            var success = await _userService.UpdateProfileAsync(dto);
+            if (!success)
+                return NotFound("User not found");
+
+            return Ok("Profile updated");
+        }
+
     }
 }

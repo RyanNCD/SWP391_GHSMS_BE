@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "API_GHSMS.Controllers.DashBoardController",
+    "Method": "GetStats",
+    "RelativePath": "api/DashBoard/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API_GHSMS.Controllers.TestsController",
     "Method": "GetTests",
     "RelativePath": "api/Tests",
@@ -170,6 +180,38 @@
     "Method": "Delete",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_GHSMS.Controllers.UserController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/User/user-profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Repository.DTO.UserProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_GHSMS.Controllers.UserController",
+    "Method": "GetProfile",
+    "RelativePath": "api/User/user-profile/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

@@ -12,5 +12,6 @@ namespace Repository.Repository
     {
         public UserRepository() { }
         public UserRepository(SWP391GHSMContext context) => _context = context;
+        
     }
 }
