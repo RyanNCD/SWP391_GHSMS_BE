@@ -27,5 +27,7 @@ public partial class ConsultantUserSchedule
 
     public virtual ConsultationBooking? ConsultationBooking { get; set; }
 
+    public virtual ICollection<TestBooking> TestBookings { get; set; } = new List<TestBooking>();
+
     public virtual User User { get; set; } = null!;
 }

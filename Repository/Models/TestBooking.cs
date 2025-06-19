@@ -15,9 +15,11 @@ public partial class TestBooking
 
     public string? Status { get; set; }
 
+    public int? ScheduleId { get; set; }
+
     public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
 
-    public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
+    public virtual ConsultantUserSchedule? Schedule { get; set; }
 
     public virtual Test Test { get; set; } = null!;
 

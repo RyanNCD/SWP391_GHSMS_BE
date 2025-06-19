@@ -527,3 +527,5 @@ D:\SWP391_GHSMS_BE\API_GHSMS\obj\Debug\net8.0\refint\API_GHSMS.dll
 D:\SWP391_GHSMS_BE\API_GHSMS\obj\Debug\net8.0\API_GHSMS.pdb
 D:\SWP391_GHSMS_BE\API_GHSMS\obj\Debug\net8.0\API_GHSMS.genruntimeconfig.cache
 D:\SWP391_GHSMS_BE\API_GHSMS\obj\Debug\net8.0\ref\API_GHSMS.dll
+D:\SWP391\SWP391_GHSMS_BE\API_GHSMS\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\SWP391\SWP391_GHSMS_BE\API_GHSMS\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-
 namespace Repository.Models;
 
 public partial class SWP391GHSMContext : DbContext
@@ -20,11 +19,11 @@ public partial class SWP391GHSMContext : DbContext
 
     public virtual DbSet<Consultant> Consultants { get; set; }
 
-    public virtual DbSet<ConsultantApplication> ConsultantApplications { get; set; }
-
     public virtual DbSet<ConsultantUserSchedule> ConsultantUserSchedules { get; set; }
 
     public virtual DbSet<ConsultationBooking> ConsultationBookings { get; set; }
+
+    public virtual DbSet<Ewallet> Ewallets { get; set; }
 
     public virtual DbSet<Feedback> Feedbacks { get; set; }
 
@@ -58,13 +57,15 @@ public partial class SWP391GHSMContext : DbContext
         string connectionString = config.GetConnectionString(connectionStringName);
         return connectionString;
     }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer(GetConnectionString("DefaultConnection"));
+        => optionsBuilder.UseSqlServer(GetConnectionString("DefaultConnection")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Blog>(entity =>
         {
-            entity.HasKey(e => e.BlogId).HasName("PK__Blog__FA0AA72D4C396BED");
+            entity.HasKey(e => e.BlogId).HasName("PK__Blog__FA0AA72DDB9CF1CE");
 
             entity.ToTable("Blog");
 
@@ -89,14 +90,18 @@ public partial class SWP391GHSMContext : DbContext
             entity.HasOne(d => d.Author).WithMany(p => p.Blogs)
                 .HasForeignKey(d => d.AuthorId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Blog__authorId__6383C8BA");
+                .HasConstraintName("FK__Blog__authorId__6477ECF3");
         });
 
         modelBuilder.Entity<Consultant>(entity =>
         {
-            entity.HasKey(e => e.ConsultantId).HasName("PK__Consulta__8E3CA2FFF770EC2D");
+            entity.HasKey(e => e.ConsultantId).HasName("PK__Consulta__8E3CA2FFC9DB1BDD");
 
             entity.Property(e => e.ConsultantId).HasColumnName("consultantId");
+            entity.Property(e => e.Avatar)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("avatar");
             entity.Property(e => e.Bio)
                 .HasColumnType("text")
                 .HasColumnName("bio");
@@ -110,49 +115,12 @@ public partial class SWP391GHSMContext : DbContext
             entity.HasOne(d => d.User).WithMany(p => p.Consultants)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Consultan__userI__66603565");
-        });
-
-        modelBuilder.Entity<ConsultantApplication>(entity =>
-        {
-            entity.HasKey(e => e.ApplicationId).HasName("PK__Consulta__79FDB1CF232D3C6E");
-
-            entity.ToTable("ConsultantApplication");
-
-            entity.Property(e => e.ApplicationId).HasColumnName("applicationId");
-            entity.Property(e => e.Bio)
-                .HasColumnType("text")
-                .HasColumnName("bio");
-            entity.Property(e => e.Degree)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("degree");
-            entity.Property(e => e.ExperienceYears).HasColumnName("experienceYears");
-            entity.Property(e => e.ReviewedBy).HasColumnName("reviewedBy");
-            entity.Property(e => e.Status)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasDefaultValue("PENDING")
-                .HasColumnName("status");
-            entity.Property(e => e.SubmittedAt)
-                .HasDefaultValueSql("(getdate())")
-                .HasColumnType("datetime")
-                .HasColumnName("submittedAt");
-            entity.Property(e => e.UserId).HasColumnName("userId");
-
-            entity.HasOne(d => d.ReviewedByNavigation).WithMany(p => p.ConsultantApplicationReviewedByNavigations)
-                .HasForeignKey(d => d.ReviewedBy)
-                .HasConstraintName("FK__Consultan__revie__6477ECF3");
-
-            entity.HasOne(d => d.User).WithMany(p => p.ConsultantApplicationUsers)
-                .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Consultan__userI__656C112C");
         });
 
         modelBuilder.Entity<ConsultantUserSchedule>(entity =>
         {
-            entity.HasKey(e => e.ScheduleId).HasName("PK__Consulta__A532EDD4C444BA61");
+            entity.HasKey(e => e.ScheduleId).HasName("PK__Consulta__A532EDD40C1E81DA");
 
             entity.ToTable("ConsultantUserSchedule");
 
@@ -180,21 +148,21 @@ public partial class SWP391GHSMContext : DbContext
             entity.HasOne(d => d.Consultant).WithMany(p => p.ConsultantUserSchedules)
                 .HasForeignKey(d => d.ConsultantId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Consultan__consu__6754599E");
+                .HasConstraintName("FK__Consultan__consu__66603565");
 
             entity.HasOne(d => d.ConsultationBooking).WithMany(p => p.ConsultantUserSchedules)
                 .HasForeignKey(d => d.ConsultationBookingId)
-                .HasConstraintName("FK__Consultan__consu__68487DD7");
+                .HasConstraintName("FK__Consultan__consu__6754599E");
 
             entity.HasOne(d => d.User).WithMany(p => p.ConsultantUserSchedules)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Consultan__userI__693CA210");
+                .HasConstraintName("FK__Consultan__userI__68487DD7");
         });
 
         modelBuilder.Entity<ConsultationBooking>(entity =>
         {
-            entity.HasKey(e => e.ConsultationBookingId).HasName("PK__Consulta__3CF475EFCA65F5FD");
+            entity.HasKey(e => e.ConsultationBookingId).HasName("PK__Consulta__3CF475EF4110D062");
 
             entity.Property(e => e.ConsultationBookingId).HasColumnName("consultationBookingId");
             entity.Property(e => e.ConsultantId).HasColumnName("consultantId");
@@ -219,17 +187,42 @@ public partial class SWP391GHSMContext : DbContext
             entity.HasOne(d => d.Consultant).WithMany(p => p.ConsultationBookings)
                 .HasForeignKey(d => d.ConsultantId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Consultat__consu__6A30C649");
+                .HasConstraintName("FK__Consultat__consu__693CA210");
 
             entity.HasOne(d => d.User).WithMany(p => p.ConsultationBookings)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Consultat__userI__6B24EA82");
+                .HasConstraintName("FK__Consultat__userI__6A30C649");
+        });
+
+        modelBuilder.Entity<Ewallet>(entity =>
+        {
+            entity.HasKey(e => e.WalletId).HasName("PK__EWallet__3785C8706628DB04");
+
+            entity.ToTable("EWallet");
+
+            entity.Property(e => e.WalletId).HasColumnName("walletId");
+            entity.Property(e => e.Balance)
+                .HasColumnType("decimal(18, 2)")
+                .HasColumnName("balance");
+            entity.Property(e => e.IsActive)
+                .HasDefaultValue(true)
+                .HasColumnName("isActive");
+            entity.Property(e => e.LastUpdated)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("lastUpdated");
+            entity.Property(e => e.UserId).HasColumnName("userId");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Ewallets)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_EWallet_User");
         });
 
         modelBuilder.Entity<Feedback>(entity =>
         {
-            entity.HasKey(e => e.FeedbackId).HasName("PK__Feedback__2613FD24A43ED041");
+            entity.HasKey(e => e.FeedbackId).HasName("PK__Feedback__2613FD24497B16D8");
 
             entity.ToTable("Feedback");
 
@@ -262,7 +255,7 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<MenstrualCycle>(entity =>
         {
-            entity.HasKey(e => e.CyclesId).HasName("PK__Menstrua__674DB3A5F7DB94DC");
+            entity.HasKey(e => e.CyclesId).HasName("PK__Menstrua__674DB3A53DEAC6F0");
 
             entity.Property(e => e.CyclesId).HasColumnName("cyclesId");
             entity.Property(e => e.AverageLength).HasColumnName("averageLength");
@@ -272,33 +265,38 @@ public partial class SWP391GHSMContext : DbContext
 
             entity.HasOne(d => d.User).WithMany(p => p.MenstrualCycles)
                 .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Menstrual__userI__6EF57B66");
+                .HasConstraintName("FK_MenstrualCycles_User");
         });
 
         modelBuilder.Entity<OvulationReminder>(entity =>
         {
-            entity.HasKey(e => e.ReminderId).HasName("PK__Ovulatio__09DAAAE37F25A291");
+            entity.HasKey(e => e.ReminderId).HasName("PK__Ovulatio__09DAAAE3D191ACC6");
 
             entity.Property(e => e.ReminderId).HasColumnName("reminderId");
-            entity.Property(e => e.ReminderDate)
-                .HasColumnType("datetime")
-                .HasColumnName("reminderDate");
+            entity.Property(e => e.CycleDay).HasColumnName("cycleDay");
+            entity.Property(e => e.CyclesId).HasColumnName("cyclesId");
+            entity.Property(e => e.Note)
+                .HasMaxLength(255)
+                .HasColumnName("note");
+            entity.Property(e => e.ReminderDate).HasColumnName("reminderDate");
             entity.Property(e => e.Type)
                 .HasMaxLength(50)
-                .IsUnicode(false)
                 .HasColumnName("type");
             entity.Property(e => e.UserId).HasColumnName("userId");
+
+            entity.HasOne(d => d.Cycles).WithMany(p => p.OvulationReminders)
+                .HasForeignKey(d => d.CyclesId)
+                .HasConstraintName("FK_OvulationReminders_Cycles");
 
             entity.HasOne(d => d.User).WithMany(p => p.OvulationReminders)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Ovulation__userI__6FE99F9F");
+                .HasConstraintName("FK_OvulationReminders_User");
         });
 
         modelBuilder.Entity<Payment>(entity =>
         {
-            entity.HasKey(e => e.PaymentId).HasName("PK__Payment__A0D9EFC60358E8F5");
+            entity.HasKey(e => e.PaymentId).HasName("PK__Payment__A0D9EFC6AFC573D8");
 
             entity.ToTable("Payment");
 
@@ -315,26 +313,20 @@ public partial class SWP391GHSMContext : DbContext
                 .IsUnicode(false)
                 .HasDefaultValue("PENDING")
                 .HasColumnName("status");
-            entity.Property(e => e.TestBooking).HasColumnName("testBooking");
             entity.Property(e => e.TransactionTime)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("transactionTime");
-            entity.Property(e => e.UserId).HasColumnName("userId");
+            entity.Property(e => e.WalletId).HasColumnName("walletId");
 
-            entity.HasOne(d => d.TestBookingNavigation).WithMany(p => p.Payments)
-                .HasForeignKey(d => d.TestBooking)
-                .HasConstraintName("FK__Payment__testBoo__70DDC3D8");
-
-            entity.HasOne(d => d.User).WithMany(p => p.Payments)
-                .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Payment__userId__71D1E811");
+            entity.HasOne(d => d.Wallet).WithMany(p => p.Payments)
+                .HasForeignKey(d => d.WalletId)
+                .HasConstraintName("FK_Payment_EWallet");
         });
 
         modelBuilder.Entity<Question>(entity =>
         {
-            entity.HasKey(e => e.QuestionId).HasName("PK__Question__6238D4B218FD1713");
+            entity.HasKey(e => e.QuestionId).HasName("PK__Question__6238D4B24EC4960E");
 
             entity.ToTable("Question");
 
@@ -365,11 +357,11 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.RoleId).HasName("PK__Role__CD98462A8EF5F49B");
+            entity.HasKey(e => e.RoleId).HasName("PK__Role__CD98462A27AA16B3");
 
             entity.ToTable("Role");
 
-            entity.HasIndex(e => e.RoleName, "UQ__Role__B1947861FE078759").IsUnique();
+            entity.HasIndex(e => e.RoleName, "UQ__Role__B194786163687C5D").IsUnique();
 
             entity.Property(e => e.RoleId).HasColumnName("roleId");
             entity.Property(e => e.RoleName)
@@ -380,7 +372,7 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<Test>(entity =>
         {
-            entity.HasKey(e => e.TestId).HasName("PK__Test__A29BFB88CC209E73");
+            entity.HasKey(e => e.TestId).HasName("PK__Test__A29BFB884D3AEFD4");
 
             entity.ToTable("Test");
 
@@ -399,11 +391,12 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<TestBooking>(entity =>
         {
-            entity.HasKey(e => e.TestBookingId).HasName("PK__TestBook__383DA4ED4B009E26");
+            entity.HasKey(e => e.TestBookingId).HasName("PK__TestBook__383DA4EDBF983367");
 
             entity.ToTable("TestBooking");
 
             entity.Property(e => e.TestBookingId).HasColumnName("testBookingId");
+            entity.Property(e => e.ScheduleId).HasColumnName("scheduleId");
             entity.Property(e => e.ScheduledDate)
                 .HasColumnType("datetime")
                 .HasColumnName("scheduledDate");
@@ -414,6 +407,10 @@ public partial class SWP391GHSMContext : DbContext
                 .HasColumnName("status");
             entity.Property(e => e.TestId).HasColumnName("testId");
             entity.Property(e => e.UserId).HasColumnName("userId");
+
+            entity.HasOne(d => d.Schedule).WithMany(p => p.TestBookings)
+                .HasForeignKey(d => d.ScheduleId)
+                .HasConstraintName("FK_TestBooking_Schedule");
 
             entity.HasOne(d => d.Test).WithMany(p => p.TestBookings)
                 .HasForeignKey(d => d.TestId)
@@ -428,7 +425,7 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<TestResult>(entity =>
         {
-            entity.HasKey(e => e.ResultId).HasName("PK__TestResu__C6EADC5BAC46BE15");
+            entity.HasKey(e => e.ResultId).HasName("PK__TestResu__C6EADC5BDFFF7F8A");
 
             entity.ToTable("TestResult");
 
@@ -458,27 +455,31 @@ public partial class SWP391GHSMContext : DbContext
             entity.HasOne(d => d.Test).WithMany(p => p.TestResults)
                 .HasForeignKey(d => d.TestId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__TestResul__testI__76969D2E");
+                .HasConstraintName("FK__TestResul__testI__778AC167");
 
             entity.HasOne(d => d.User).WithMany(p => p.TestResults)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__TestResul__userI__778AC167");
+                .HasConstraintName("FK__TestResul__userI__787EE5A0");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__User__CB9A1CFF9BE8F2D2");
+            entity.HasKey(e => e.UserId).HasName("PK__User__CB9A1CFF1AE0AA8E");
 
             entity.ToTable("User");
 
-            entity.HasIndex(e => e.Email, "UQ__User__AB6E616425017F7D").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__User__AB6E6164CB87A5AA").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("userId");
             entity.Property(e => e.Address)
                 .HasMaxLength(255)
                 .IsUnicode(false)
                 .HasColumnName("address");
+            entity.Property(e => e.Avatar)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("avatar");
             entity.Property(e => e.CreateAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
@@ -511,12 +512,12 @@ public partial class SWP391GHSMContext : DbContext
             entity.HasOne(d => d.Role).WithMany(p => p.Users)
                 .HasForeignKey(d => d.RoleId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__User__roleId__787EE5A0");
+                .HasConstraintName("FK__User__roleId__797309D9");
         });
 
         modelBuilder.Entity<UserMessage>(entity =>
         {
-            entity.HasKey(e => e.MessageId).HasName("PK__UserMess__4808B99397F7EACA");
+            entity.HasKey(e => e.MessageId).HasName("PK__UserMess__4808B993AFBF9899");
 
             entity.ToTable("UserMessage");
 
@@ -534,12 +535,12 @@ public partial class SWP391GHSMContext : DbContext
             entity.HasOne(d => d.Receiver).WithMany(p => p.UserMessageReceivers)
                 .HasForeignKey(d => d.ReceiverId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__UserMessa__recei__797309D9");
+                .HasConstraintName("FK__UserMessa__recei__7A672E12");
 
             entity.HasOne(d => d.Sender).WithMany(p => p.UserMessageSenders)
                 .HasForeignKey(d => d.SenderId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__UserMessa__sende__7A672E12");
+                .HasConstraintName("FK__UserMessa__sende__7B5B524B");
         });
 
         OnModelCreatingPartial(modelBuilder);
