@@ -25,10 +25,14 @@ builder.Services.AddScoped<SWP391GHSMContext>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITestService, TestService>();
 builder.Services.AddScoped<IDashBoardService,DashBoardService>();
+builder.Services.AddScoped<IFeedbackService, FeedbackService>();
+builder.Services.AddScoped<IConsultantService, ConsultantService>();
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<TestRepository>();
 builder.Services.AddScoped<DashBoardRepository>();
 builder.Services.AddScoped<AuthenRepository>();
+builder.Services.AddScoped<FeedbackRepository>();
+builder.Services.AddScoped<ConsultantRepository>();
 builder.Services.AddScoped<IAuthenService, AuthenService>();
 
 

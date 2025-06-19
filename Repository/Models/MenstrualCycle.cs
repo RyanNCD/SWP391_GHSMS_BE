@@ -11,9 +11,11 @@ public partial class MenstrualCycle
 
     public DateOnly StartDate { get; set; }
 
-    public DateOnly? EndDate { get; set; }
+    public DateOnly EndDate { get; set; }
 
-    public int? AverageLength { get; set; }
+    public int AverageLength { get; set; }
+
+    public virtual ICollection<OvulationReminder> OvulationReminders { get; set; } = new List<OvulationReminder>();
 
     public virtual User User { get; set; } = null!;
 }

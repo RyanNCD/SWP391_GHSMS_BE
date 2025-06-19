@@ -25,11 +25,9 @@ public partial class User
 
     public bool? IsActive { get; set; }
 
+    public string? Avatar { get; set; }
+
     public virtual ICollection<Blog> Blogs { get; set; } = new List<Blog>();
-
-    public virtual ICollection<ConsultantApplication> ConsultantApplicationReviewedByNavigations { get; set; } = new List<ConsultantApplication>();
-
-    public virtual ICollection<ConsultantApplication> ConsultantApplicationUsers { get; set; } = new List<ConsultantApplication>();
 
     public virtual ICollection<ConsultantUserSchedule> ConsultantUserSchedules { get; set; } = new List<ConsultantUserSchedule>();
 
@@ -37,13 +35,13 @@ public partial class User
 
     public virtual ICollection<ConsultationBooking> ConsultationBookings { get; set; } = new List<ConsultationBooking>();
 
+    public virtual ICollection<Ewallet> Ewallets { get; set; } = new List<Ewallet>();
+
     public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
 
     public virtual ICollection<MenstrualCycle> MenstrualCycles { get; set; } = new List<MenstrualCycle>();
 
     public virtual ICollection<OvulationReminder> OvulationReminders { get; set; } = new List<OvulationReminder>();
-
-    public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
 
     public virtual ICollection<Question> Questions { get; set; } = new List<Question>();
 

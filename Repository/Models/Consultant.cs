@@ -15,6 +15,8 @@ public partial class Consultant
 
     public string? Bio { get; set; }
 
+    public string? Avatar { get; set; }
+
     public virtual ICollection<ConsultantUserSchedule> ConsultantUserSchedules { get; set; } = new List<ConsultantUserSchedule>();
 
     public virtual ICollection<ConsultationBooking> ConsultationBookings { get; set; } = new List<ConsultationBooking>();
