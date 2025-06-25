@@ -48,7 +48,16 @@ builder.Services.AddScoped<FeedbackRepository>();
 builder.Services.AddScoped<ConsultantRepository>();
 builder.Services.AddScoped<IAuthenService, AuthenService>();
 
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -84,7 +93,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseCors("AllowAll");
 app.MapControllers();
 
 app.Run();

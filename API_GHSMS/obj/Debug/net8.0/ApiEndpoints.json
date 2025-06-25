@@ -130,7 +130,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Repository.Models.Feedback, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Repository.DTO.FeedbackDTO, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -150,7 +150,7 @@
     "Parameters": [
       {
         "Name": "feedback",
-        "Type": "Repository.Models.Feedback",
+        "Type": "Repository.DTO.FeedbackDTO",
         "IsRequired": true
       }
     ],
@@ -172,7 +172,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Repository.Models.Feedback",
+        "Type": "Repository.DTO.FeedbackDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -197,7 +197,7 @@
       },
       {
         "Name": "feedback",
-        "Type": "Repository.Models.Feedback",
+        "Type": "Repository.DTO.FeedbackDTO",
         "IsRequired": true
       }
     ],
@@ -229,7 +229,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Repository.Models.Test, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Repository.DTO.TestDTO, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -248,8 +248,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "test",
-        "Type": "Repository.Models.Test",
+        "Name": "dto",
+        "Type": "Repository.DTO.TestDTO",
         "IsRequired": true
       }
     ],
@@ -271,7 +271,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Repository.Models.Test",
+        "Type": "Repository.DTO.TestDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -295,8 +295,8 @@
         "IsRequired": true
       },
       {
-        "Name": "test",
-        "Type": "Repository.Models.Test",
+        "Name": "dto",
+        "Type": "Repository.DTO.TestDTO",
         "IsRequired": true
       }
     ],
@@ -312,7 +312,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Repository.Models.User, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Repository.DTO.UserProfileDTO, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -331,8 +331,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "Repository.Models.User",
+        "Name": "dto",
+        "Type": "Repository.DTO.UserDTO",
         "IsRequired": true
       }
     ],
@@ -354,7 +354,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Repository.Models.User",
+        "Type": "Repository.DTO.UserProfileDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -378,8 +378,8 @@
         "IsRequired": true
       },
       {
-        "Name": "user",
-        "Type": "Repository.Models.User",
+        "Name": "dto",
+        "Type": "Repository.DTO.UserProfileDTO",
         "IsRequired": true
       }
     ],

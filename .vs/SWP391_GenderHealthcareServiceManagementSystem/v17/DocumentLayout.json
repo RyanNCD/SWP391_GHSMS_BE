@@ -3,20 +3,132 @@
   "WorkspaceRootPath": "D:\\SWP\\SWP391_GHSMS_BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\migrations\\20250624133720_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\migrations\\20250624133720_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\testdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\testdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\implement\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\implement\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|d:\\swp\\swp391_ghsms_be\\api_ghsms\\controllers\\testscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|solutionrelative:api_ghsms\\controllers\\testscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\implement\\testservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\implement\\testservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\interface\\itestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\interface\\itestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\models\\swp391ghsmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\models\\swp391ghsmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\models\\testbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\models\\testbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\implement\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\implement\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|d:\\swp\\swp391_ghsms_be\\api_ghsms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|solutionrelative:api_ghsms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\interface\\ifeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\interface\\ifeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\interface\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\interface\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\swp391ghsmcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\swp391ghsmcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\implement\\consultantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\implement\\consultantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\implement\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\implement\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\feedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\feedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\consultantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\consultantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\dashboardstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\dashboardstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|d:\\swp\\swp391_ghsms_be\\api_ghsms\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|solutionrelative:api_ghsms\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\consultantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\consultantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|d:\\swp\\swp391_ghsms_be\\api_ghsms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|solutionrelative:api_ghsms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\migrations\\20250624133720_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\migrations\\20250624133720_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|d:\\swp\\swp391_ghsms_be\\api_ghsms\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -25,14 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\swp391ghsmcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\swp391ghsmcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\authenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,10 +159,6 @@
       "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\implement\\consultantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\implement\\consultantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\interface\\iconsultantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\interface\\iconsultantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,80 +175,12 @@
       "RelativeMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|solutionrelative:api_ghsms\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|d:\\swp\\swp391_ghsms_be\\api_ghsms\\controllers\\testscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|solutionrelative:api_ghsms\\controllers\\testscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\consultantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\consultantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\consultantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\consultantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\dto\\dashboardstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\dto\\dashboardstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\interface\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\interface\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\interface\\ifeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\interface\\ifeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|d:\\swp\\swp391_ghsms_be\\api_ghsms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|solutionrelative:api_ghsms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|d:\\swp\\swp391_ghsms_be\\api_ghsms\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|solutionrelative:api_ghsms\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\implement\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\implement\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\implement\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\implement\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\interface\\itestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\interface\\itestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\implement\\testservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\implement\\testservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|d:\\swp\\swp391_ghsms_be\\repository\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8F05E-B4FB-462F-B449-F188271DFD3E}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|d:\\swp\\swp391_ghsms_be\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619A591B-A4C0-480C-89B9-86DD590F77CC}|Service\\Service.csproj|solutionrelative:service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38BCA6FF-1626-4194-B8AE-CD5ABFC7F25D}|API_GHSMS\\API_GHSMS.csproj|d:\\swp\\swp391_ghsms_be\\api_ghsms\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,46 +194,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\UserService.cs",
               "RelativeDocumentMoniker": "Service\\Implement\\UserService.cs",
               "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\UserService.cs",
               "RelativeToolTip": "Service\\Implement\\UserService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA4wCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T03:15:05.901Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250624133720_InitialCreate.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Migrations\\20250624133720_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Repository\\Migrations\\20250624133720_InitialCreate.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Migrations\\20250624133720_InitialCreate.cs",
-              "RelativeToolTip": "Repository\\Migrations\\20250624133720_InitialCreate.cs",
-              "ViewState": "AgIAAK8BAAAAAAAAAADwv8QBAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T13:38:12.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "Repository\\Models\\Payment.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\Payment.cs",
-              "RelativeToolTip": "Repository\\Models\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T13:37:56.321Z",
               "EditorCaption": ""
             },
             {
@@ -262,72 +268,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Repository\\Models\\User.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\User.cs",
-              "RelativeToolTip": "Repository\\Models\\User.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwBsAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TestDTO.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\TestDTO.cs",
+              "RelativeDocumentMoniker": "Repository\\DTO\\TestDTO.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\TestDTO.cs",
+              "RelativeToolTip": "Repository\\DTO\\TestDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T13:03:42.252Z",
+              "WhenOpened": "2025-06-25T12:37:45.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Repository",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository.csproj",
-              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository.csproj",
-              "RelativeToolTip": "Repository\\Repository.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-24T12:49:25.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\appsettings.json",
-              "RelativeDocumentMoniker": "API_GHSMS\\appsettings.json",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\appsettings.json",
-              "RelativeToolTip": "API_GHSMS\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-07T03:14:36.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Service.csproj",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Service.csproj",
-              "RelativeDocumentMoniker": "Service\\Service.csproj",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Service.csproj",
-              "RelativeToolTip": "Service\\Service.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-04T03:04:46.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthenRepository.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\AuthenRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository\\AuthenRepository.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\AuthenRepository.cs",
-              "RelativeToolTip": "Repository\\Repository\\AuthenRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T16:11:09.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Swp391ghsmContext.cs",
               "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\Swp391ghsmContext.cs",
               "RelativeDocumentMoniker": "Repository\\Models\\Swp391ghsmContext.cs",
@@ -341,344 +295,175 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "API_GHSMS\\appsettings.Development.json",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\appsettings.Development.json",
-              "RelativeToolTip": "API_GHSMS\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-07T03:14:35.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "efpt.config.json",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\efpt.config.json",
-              "RelativeDocumentMoniker": "Repository\\efpt.config.json",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\efpt.config.json",
-              "RelativeToolTip": "Repository\\efpt.config.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-24T12:35:23.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SWP391GHSMContextFactory.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\SWP391GHSMContextFactory.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository\\SWP391GHSMContextFactory.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\SWP391GHSMContextFactory.cs",
-              "RelativeToolTip": "Repository\\Repository\\SWP391GHSMContextFactory.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T13:00:46.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TestsController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\TestsController.cs",
-              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\TestsController.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\TestsController.cs",
-              "RelativeToolTip": "API_GHSMS\\Controllers\\TestsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwEoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:41:00.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "API_GHSMS\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Properties\\launchSettings.json",
-              "RelativeToolTip": "API_GHSMS\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-24T12:13:27.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IConsultantService.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IConsultantService.cs",
-              "RelativeDocumentMoniker": "Service\\Interface\\IConsultantService.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IConsultantService.cs",
-              "RelativeToolTip": "Service\\Interface\\IConsultantService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T13:57:32.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ConsultantService.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\ConsultantService.cs",
-              "RelativeDocumentMoniker": "Service\\Implement\\ConsultantService.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\ConsultantService.cs",
-              "RelativeToolTip": "Service\\Implement\\ConsultantService.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T13:58:16.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DashBoardController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\DashBoardController.cs",
-              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\DashBoardController.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\DashBoardController.cs",
-              "RelativeToolTip": "API_GHSMS\\Controllers\\DashBoardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:14:15.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ConsultantsController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\ConsultantsController.cs",
-              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\ConsultantsController.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\ConsultantsController.cs",
-              "RelativeToolTip": "API_GHSMS\\Controllers\\ConsultantsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T14:01:47.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AuthenController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\AuthenController.cs",
-              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\AuthenController.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\AuthenController.cs",
-              "RelativeToolTip": "API_GHSMS\\Controllers\\AuthenController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T16:13:53.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ConsultantRepository.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\ConsultantRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository\\ConsultantRepository.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\ConsultantRepository.cs",
-              "RelativeToolTip": "Repository\\Repository\\ConsultantRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T13:55:58.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ConsultantDTO.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\ConsultantDTO.cs",
-              "RelativeDocumentMoniker": "Repository\\DTO\\ConsultantDTO.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\ConsultantDTO.cs",
-              "RelativeToolTip": "Repository\\DTO\\ConsultantDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T13:49:43.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DashboardStatsDto.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\DashboardStatsDto.cs",
-              "RelativeDocumentMoniker": "Repository\\DTO\\DashboardStatsDto.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\DashboardStatsDto.cs",
-              "RelativeToolTip": "Repository\\DTO\\DashboardStatsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:11:49.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DashBoardRepository.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\DashBoardRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository\\DashBoardRepository.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\DashBoardRepository.cs",
-              "RelativeToolTip": "Repository\\Repository\\DashBoardRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:07:47.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FeedbackRepository.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\FeedbackRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository\\FeedbackRepository.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\FeedbackRepository.cs",
-              "RelativeToolTip": "Repository\\Repository\\FeedbackRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T14:50:50.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IFeedbackService.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IFeedbackService.cs",
-              "RelativeDocumentMoniker": "Service\\Interface\\IFeedbackService.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IFeedbackService.cs",
-              "RelativeToolTip": "Service\\Interface\\IFeedbackService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T14:52:12.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UserProfileDTO.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\UserProfileDTO.cs",
-              "RelativeDocumentMoniker": "Repository\\DTO\\UserProfileDTO.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\UserProfileDTO.cs",
-              "RelativeToolTip": "Repository\\DTO\\UserProfileDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T17:11:47.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Base\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Base\\GenericRepository.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Base\\GenericRepository.cs",
-              "RelativeToolTip": "Repository\\Base\\GenericRepository.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAqwHwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T03:02:39.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IDashBoardService.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IDashBoardService.cs",
-              "RelativeDocumentMoniker": "Service\\Interface\\IDashBoardService.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IDashBoardService.cs",
-              "RelativeToolTip": "Service\\Interface\\IDashBoardService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:10:46.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TestRepository.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\TestRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository\\TestRepository.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\TestRepository.cs",
-              "RelativeToolTip": "Repository\\Repository\\TestRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:35:29.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "FeedbacksController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\FeedbacksController.cs",
-              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\FeedbacksController.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\FeedbacksController.cs",
-              "RelativeToolTip": "API_GHSMS\\Controllers\\FeedbacksController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwDUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T15:06:05.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API_GHSMS\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwDMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T03:24:58.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DashBoardService.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\DashBoardService.cs",
-              "RelativeDocumentMoniker": "Service\\Implement\\DashBoardService.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\DashBoardService.cs",
-              "RelativeToolTip": "Service\\Implement\\DashBoardService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:12:53.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "FeedbackService.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\FeedbackService.cs",
-              "RelativeDocumentMoniker": "Service\\Implement\\FeedbackService.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\FeedbackService.cs",
-              "RelativeToolTip": "Service\\Implement\\FeedbackService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T14:53:17.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "TestService.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\TestService.cs",
-              "RelativeDocumentMoniker": "Service\\Implement\\TestService.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\TestService.cs",
-              "RelativeToolTip": "Service\\Implement\\TestService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:50:44.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
               "Title": "ITestService.cs",
               "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\ITestService.cs",
               "RelativeDocumentMoniker": "Service\\Interface\\ITestService.cs",
               "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\ITestService.cs",
               "RelativeToolTip": "Service\\Interface\\ITestService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T13:37:45.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 2,
+              "Title": "TestsController.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\TestsController.cs",
+              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\TestsController.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\TestsController.cs",
+              "RelativeToolTip": "API_GHSMS\\Controllers\\TestsController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:41:00.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Repository\\DTO\\UserDTO.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "Repository\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T12:27:33.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeedbackService.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\FeedbackService.cs",
+              "RelativeDocumentMoniker": "Service\\Implement\\FeedbackService.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\FeedbackService.cs",
+              "RelativeToolTip": "Service\\Implement\\FeedbackService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAEgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:53:17.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestService.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\TestService.cs",
+              "RelativeDocumentMoniker": "Service\\Implement\\TestService.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\TestService.cs",
+              "RelativeToolTip": "Service\\Implement\\TestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:50:44.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestBooking.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\TestBooking.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\TestBooking.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\TestBooking.cs",
+              "RelativeToolTip": "Repository\\Models\\TestBooking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T12:37:19.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Repository\\DTO\\LoginDto.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "Repository\\DTO\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:15:05.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "Repository\\DTO\\UserRegisterDto.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\UserRegisterDto.cs",
+              "RelativeToolTip": "Repository\\DTO\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:17:30.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API_GHSMS\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAewCgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T03:24:58.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "Service\\Interface\\IUserService.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IUserService.cs",
+              "RelativeToolTip": "Service\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T03:09:54.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\User.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\User.cs",
+              "RelativeToolTip": "Repository\\Models\\User.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:03:42.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserProfileDTO.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\UserProfileDTO.cs",
+              "RelativeDocumentMoniker": "Repository\\DTO\\UserProfileDTO.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\UserProfileDTO.cs",
+              "RelativeToolTip": "Repository\\DTO\\UserProfileDTO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:11:47.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Base\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Base\\GenericRepository.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Base\\GenericRepository.cs",
+              "RelativeToolTip": "Repository\\Base\\GenericRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA8wDMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T03:02:39.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repository\\UserRepository.cs",
@@ -691,20 +476,358 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IUserService.cs",
-              "RelativeDocumentMoniker": "Service\\Interface\\IUserService.cs",
-              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IUserService.cs",
-              "RelativeToolTip": "Service\\Interface\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "IDashBoardService.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IDashBoardService.cs",
+              "RelativeDocumentMoniker": "Service\\Interface\\IDashBoardService.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IDashBoardService.cs",
+              "RelativeToolTip": "Service\\Interface\\IDashBoardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T03:09:54.159Z",
+              "WhenOpened": "2025-06-07T16:10:46.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IFeedbackService.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IFeedbackService.cs",
+              "RelativeDocumentMoniker": "Service\\Interface\\IFeedbackService.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IFeedbackService.cs",
+              "RelativeToolTip": "Service\\Interface\\IFeedbackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:52:12.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SWP391GHSMContextFactory.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\SWP391GHSMContextFactory.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\SWP391GHSMContextFactory.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\SWP391GHSMContextFactory.cs",
+              "RelativeToolTip": "Repository\\Repository\\SWP391GHSMContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:00:46.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConsultantService.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\ConsultantService.cs",
+              "RelativeDocumentMoniker": "Service\\Implement\\ConsultantService.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\ConsultantService.cs",
+              "RelativeToolTip": "Service\\Implement\\ConsultantService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAewBwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T13:58:16.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DashBoardService.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\DashBoardService.cs",
+              "RelativeDocumentMoniker": "Service\\Implement\\DashBoardService.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Implement\\DashBoardService.cs",
+              "RelativeToolTip": "Service\\Implement\\DashBoardService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:12:53.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FeedbackDTO.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\FeedbackDTO.cs",
+              "RelativeDocumentMoniker": "Repository\\DTO\\FeedbackDTO.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\FeedbackDTO.cs",
+              "RelativeToolTip": "Repository\\DTO\\FeedbackDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:31:47.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ConsultantDTO.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\ConsultantDTO.cs",
+              "RelativeDocumentMoniker": "Repository\\DTO\\ConsultantDTO.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\ConsultantDTO.cs",
+              "RelativeToolTip": "Repository\\DTO\\ConsultantDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T13:49:43.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DashboardStatsDto.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\DashboardStatsDto.cs",
+              "RelativeDocumentMoniker": "Repository\\DTO\\DashboardStatsDto.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\DTO\\DashboardStatsDto.cs",
+              "RelativeToolTip": "Repository\\DTO\\DashboardStatsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:11:49.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FeedbacksController.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\FeedbacksController.cs",
+              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\FeedbacksController.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\FeedbacksController.cs",
+              "RelativeToolTip": "API_GHSMS\\Controllers\\FeedbacksController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T15:06:05.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\Feedback.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\Feedback.cs",
+              "RelativeToolTip": "Repository\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:39:15.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ConsultantRepository.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\ConsultantRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\ConsultantRepository.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\ConsultantRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\ConsultantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T13:55:58.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\Payment.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Models\\Payment.cs",
+              "RelativeToolTip": "Repository\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:37:56.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FeedbackRepository.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\FeedbackRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\FeedbackRepository.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\FeedbackRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\FeedbackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:50:50.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Program.cs",
+              "RelativeDocumentMoniker": "API_GHSMS\\Program.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Program.cs",
+              "RelativeToolTip": "API_GHSMS\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:11:46.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250624133720_InitialCreate.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Migrations\\20250624133720_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Repository\\Migrations\\20250624133720_InitialCreate.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Migrations\\20250624133720_InitialCreate.cs",
+              "RelativeToolTip": "Repository\\Migrations\\20250624133720_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:38:12.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Service.csproj",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Service.csproj",
+              "RelativeDocumentMoniker": "Service\\Service.csproj",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Service.csproj",
+              "RelativeToolTip": "Service\\Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-04T03:04:46.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\appsettings.json",
+              "RelativeDocumentMoniker": "API_GHSMS\\appsettings.json",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\appsettings.json",
+              "RelativeToolTip": "API_GHSMS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-07T03:14:36.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Repository.csproj",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository.csproj",
+              "RelativeToolTip": "Repository\\Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-24T12:49:25.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuthenRepository.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\AuthenRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\AuthenRepository.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\AuthenRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\AuthenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T16:11:09.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API_GHSMS\\appsettings.Development.json",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\appsettings.Development.json",
+              "RelativeToolTip": "API_GHSMS\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-07T03:14:35.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "efpt.config.json",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\efpt.config.json",
+              "RelativeDocumentMoniker": "Repository\\efpt.config.json",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\efpt.config.json",
+              "RelativeToolTip": "Repository\\efpt.config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-24T12:35:23.887Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 37,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API_GHSMS\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API_GHSMS\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-24T12:13:27.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IConsultantService.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IConsultantService.cs",
+              "RelativeDocumentMoniker": "Service\\Interface\\IConsultantService.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Interface\\IConsultantService.cs",
+              "RelativeToolTip": "Service\\Interface\\IConsultantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T13:57:32.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\DashBoardController.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "API_GHSMS\\Controllers\\DashBoardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:14:15.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ConsultantsController.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\ConsultantsController.cs",
+              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\ConsultantsController.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\ConsultantsController.cs",
+              "RelativeToolTip": "API_GHSMS\\Controllers\\ConsultantsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:01:47.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AuthenController.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\AuthenController.cs",
+              "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\AuthenController.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\AuthenController.cs",
+              "RelativeToolTip": "API_GHSMS\\Controllers\\AuthenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T16:13:53.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DashBoardRepository.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\DashBoardRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\DashBoardRepository.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\DashBoardRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\DashBoardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:07:47.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TestRepository.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\TestRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\TestRepository.cs",
+              "ToolTip": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository\\TestRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\TestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:35:29.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "API_GHSMS\\Controllers\\WeatherForecastController.cs",
@@ -712,8 +835,7 @@
               "RelativeToolTip": "API_GHSMS\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T03:33:37.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T03:33:37.178Z"
             }
           ]
         }
