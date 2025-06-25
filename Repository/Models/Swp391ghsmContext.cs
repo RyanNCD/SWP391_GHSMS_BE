@@ -58,8 +58,8 @@ public partial class SWP391GHSMContext : DbContext
         return connectionString;
     }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer(GetConnectionString("DefaultConnection")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //    => optionsBuilder.UseSqlServer(GetConnectionString("DefaultConnection")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -75,7 +75,7 @@ public partial class SWP391GHSMContext : DbContext
                 .HasColumnType("text")
                 .HasColumnName("content");
             entity.Property(e => e.CreateAt)
-                .HasDefaultValueSql("(getdate())")
+                .HasDefaultValueSql("(CURRENT_TIMESTAMP)")
                 .HasColumnType("datetime")
                 .HasColumnName("createAt");
             entity.Property(e => e.Image)
@@ -128,7 +128,7 @@ public partial class SWP391GHSMContext : DbContext
             entity.Property(e => e.ConsultantId).HasColumnName("consultantId");
             entity.Property(e => e.ConsultationBookingId).HasColumnName("consultationBookingId");
             entity.Property(e => e.CreateAt)
-                .HasDefaultValueSql("(getdate())")
+                .HasDefaultValueSql("(CURRENT_TIMESTAMP)")
                 .HasColumnType("datetime")
                 .HasColumnName("createAt");
             entity.Property(e => e.DurationMinutes).HasColumnName("durationMinutes");
@@ -209,7 +209,7 @@ public partial class SWP391GHSMContext : DbContext
                 .HasDefaultValue(true)
                 .HasColumnName("isActive");
             entity.Property(e => e.LastUpdated)
-                .HasDefaultValueSql("(getdate())")
+                .HasDefaultValueSql("(CURRENT_TIMESTAMP)")
                 .HasColumnType("datetime")
                 .HasColumnName("lastUpdated");
             entity.Property(e => e.UserId).HasColumnName("userId");
@@ -232,7 +232,7 @@ public partial class SWP391GHSMContext : DbContext
                 .HasColumnName("comment");
             entity.Property(e => e.ConsultationBookingId).HasColumnName("consultationBookingId");
             entity.Property(e => e.CreateAt)
-                .HasDefaultValueSql("(getdate())")
+                .HasDefaultValueSql("(CURRENT_TIMESTAMP)")
                 .HasColumnType("datetime")
                 .HasColumnName("createAt");
             entity.Property(e => e.Rating).HasColumnName("rating");
@@ -314,7 +314,7 @@ public partial class SWP391GHSMContext : DbContext
                 .HasDefaultValue("PENDING")
                 .HasColumnName("status");
             entity.Property(e => e.TransactionTime)
-                .HasDefaultValueSql("(getdate())")
+                .HasDefaultValueSql("(CURRENT_TIMESTAMP)")
                 .HasColumnType("datetime")
                 .HasColumnName("transactionTime");
             entity.Property(e => e.WalletId).HasColumnName("walletId");
@@ -336,7 +336,7 @@ public partial class SWP391GHSMContext : DbContext
                 .HasColumnName("answerText");
             entity.Property(e => e.ConsultantId).HasColumnName("consultantId");
             entity.Property(e => e.CreateAt)
-                .HasDefaultValueSql("(getdate())")
+                .HasDefaultValueSql("(CURRENT_TIMESTAMP)")
                 .HasColumnType("datetime")
                 .HasColumnName("createAt");
             entity.Property(e => e.QuestionText)
@@ -481,7 +481,7 @@ public partial class SWP391GHSMContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("avatar");
             entity.Property(e => e.CreateAt)
-                .HasDefaultValueSql("(getdate())")
+                .HasDefaultValueSql("(CURRENT_TIMESTAMP)")
                 .HasColumnType("datetime")
                 .HasColumnName("createAt");
             entity.Property(e => e.Email)
@@ -528,7 +528,7 @@ public partial class SWP391GHSMContext : DbContext
             entity.Property(e => e.ReceiverId).HasColumnName("receiverId");
             entity.Property(e => e.SenderId).HasColumnName("senderId");
             entity.Property(e => e.SentAt)
-                .HasDefaultValueSql("(getdate())")
+                .HasDefaultValueSql("(CURRENT_TIMESTAMP)")
                 .HasColumnType("datetime")
                 .HasColumnName("sentAt");
 
