@@ -1,77 +1,69 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Repository.Models;
-using Service.Implement;
+﻿using Microsoft.AspNetCore.Mvc;
+using Repository.DTO;
 using Service.Interface;
 
 namespace API_GHSMS.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class TestsController : ControllerBase
     {
         private readonly ITestService _service;
 
         public TestsController(ITestService testService)
         {
-           _service = testService;
+            _service = testService;
         }
 
         // GET: api/Tests
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Test>>> GetTests()
+        public async Task<ActionResult<IEnumerable<TestDTO>>> GetTests()
         {
-            return await _service.GetAllAsync();
+            var tests = await _service.GetAllAsync();
+            return Ok(tests);
         }
 
         // GET: api/Tests/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Test>> GetTest(int id)
+        public async Task<ActionResult<TestDTO>> GetTest(int id)
         {
             var test = await _service.GetByIdAsync(id);
-
             if (test == null)
-            {
-                return NotFound();
-            }
+                return NotFound("Không tìm thấy xét nghiệm");
 
-            return test;
-        }
-
-        // PUT: api/Tests/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, [FromBody] Test test)
-        {
-            if (id != test.TestId)
-                return BadRequest("ID mismatch");
-
-            var existing = await _service.GetByIdAsync(id);
-            if (existing == null)
-                return NotFound();
-
-            var result = await _service.UpdateAsync(test);
-            if (result > 0)
-                return Ok("User updated");
-            return BadRequest("Update failed");
+            return Ok(test);
         }
 
         // POST: api/Tests
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult> Create([FromBody] Test test)
+        public async Task<ActionResult> Create([FromBody] TestDTO dto)
         {
-            var result = await _service.CreateAsync(test);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var result = await _service.CreateAsync(dto);
             if (result > 0)
-                return Ok(new { message = "Test created", Testid = test.TestId });
-            return BadRequest("Failed to create test");
+                return Ok(new { message = "Tạo xét nghiệm thành công", testId = result });
+
+            return BadRequest("Tạo thất bại");
         }
 
-        
+        // PUT: api/Tests/5
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Update(int id, [FromBody] TestDTO dto)
+        {
+            if (id != dto.TestId)
+                return BadRequest("ID không khớp");
+
+            var existing = await _service.GetByIdAsync(id);
+            if (existing == null)
+                return NotFound("Không tìm thấy xét nghiệm");
+
+            var result = await _service.UpdateAsync(dto);
+            if (result > 0)
+                return Ok("Cập nhật thành công");
+
+            return BadRequest("Cập nhật thất bại");
+        }
     }
 }

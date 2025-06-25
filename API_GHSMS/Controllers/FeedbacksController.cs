@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Repository.Models;
-using Service.Implement;
+﻿using Microsoft.AspNetCore.Mvc;
+using Repository.DTO;
 using Service.Interface;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace API_GHSMS.Controllers
 {
@@ -24,53 +19,50 @@ namespace API_GHSMS.Controllers
 
         // GET: api/Feedbacks
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Feedback>>> GetFeedbacks()
+        public async Task<ActionResult<IEnumerable<FeedbackDTO>>> GetFeedbacks()
         {
-            return await _feedbackService.GetAllAsync();
+            var feedbacks = await _feedbackService.GetAllAsync();
+            return Ok(feedbacks);
         }
 
         // GET: api/Feedbacks/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Feedback>> GetFeedback(int id)
+        public async Task<ActionResult<FeedbackDTO>> GetFeedback(int id)
         {
             var feedback = await _feedbackService.GetByIdAsync(id);
-
             if (feedback == null)
-            {
                 return NotFound();
-            }
 
-            return feedback;
+            return Ok(feedback);
         }
 
         // PUT: api/Feedbacks/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-      
-         public async Task<ActionResult> Update(int id, [FromBody] Feedback feedback)
+        public async Task<IActionResult> Update(int id, [FromBody] FeedbackDTO feedback)
         {
             if (id != feedback.FeedbackId)
-                return BadRequest("ID mismatch");
+                return BadRequest("ID không khớp");
+
             var existing = await _feedbackService.GetByIdAsync(id);
             if (existing == null)
-                return NotFound();
-
+                return NotFound("Không tìm thấy feedback");
 
             var result = await _feedbackService.UpdateAsync(feedback);
             if (result > 0)
-                return Ok("Feedback updated");
-            return BadRequest("Update failed");
+                return Ok("Cập nhật feedback thành công");
+
+            return BadRequest("Cập nhật thất bại");
         }
 
         // POST: api/Feedbacks
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult> PostFeedback(Feedback feedback)
+        public async Task<IActionResult> PostFeedback([FromBody] FeedbackDTO feedback)
         {
             var result = await _feedbackService.CreateAsync(feedback);
             if (result > 0)
-                return Ok(new { message = "Feedback created", feedbackId = feedback.FeedbackId });
-            return BadRequest("Failed to create feedback");
+                return Ok(new { message = "Tạo feedback thành công", feedbackId = result });
+
+            return BadRequest("Tạo feedback thất bại");
         }
 
         // DELETE: api/Feedbacks/5
@@ -79,16 +71,13 @@ namespace API_GHSMS.Controllers
         {
             var feedback = await _feedbackService.GetByIdAsync(id);
             if (feedback == null)
-            {
-                return NotFound();
-            }
+                return NotFound("Không tìm thấy feedback");
 
-           await _feedbackService.DeleteAsync(id);
-            
+            var result = await _feedbackService.DeleteAsync(id);
+            if (result > 0)
+                return NoContent();
 
-            return NoContent();
+            return BadRequest("Xoá feedback thất bại");
         }
-
-       
     }
 }
