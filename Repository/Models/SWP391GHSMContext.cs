@@ -7,10 +7,6 @@ namespace Repository.Models;
 
 public partial class SWP391GHSMContext : DbContext
 {
-    public SWP391GHSMContext()
-    {
-    }
-
     public SWP391GHSMContext(DbContextOptions<SWP391GHSMContext> options)
         : base(options)
     {
