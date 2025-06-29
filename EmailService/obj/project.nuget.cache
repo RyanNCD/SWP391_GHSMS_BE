@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Rc9DdWRsc10=",
+  "dgSpecHash": "HcP6DDFhebk=",
   "success": true,
   "projectFilePath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\EmailService\\EmailService.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Phi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\Phi\\.nuget\\packages\\microsoft.extensions.options\\9.0.6\\microsoft.extensions.options.9.0.6.nupkg.sha512",
+    "C:\\Users\\Phi\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.6\\microsoft.extensions.primitives.9.0.6.nupkg.sha512"
+  ],
   "logs": []
 }
