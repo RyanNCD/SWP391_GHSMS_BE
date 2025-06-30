@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Repository.DTO
 {
-    public class ConsultantDTO
+    public class Consultants
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
 
         [Required(ErrorMessage = "Bằng cấp là bắt buộc")]
         [StringLength(100, ErrorMessage = "Bằng cấp không được vượt quá 100 ký tự")]

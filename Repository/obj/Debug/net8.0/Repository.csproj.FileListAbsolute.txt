@@ -43,3 +43,18 @@ D:\SWP\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\refint\Repository.dll
 D:\SWP\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.pdb
 D:\SWP\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 D:\SWP\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\ref\Repository.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\bin\Debug\net8.0\Repository.deps.json
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\bin\Debug\net8.0\Repository.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\bin\Debug\net8.0\Repository.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\refint\Repository.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\ref\Repository.dll

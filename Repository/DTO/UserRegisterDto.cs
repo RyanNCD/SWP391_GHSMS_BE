@@ -21,7 +21,7 @@ namespace Repository.DTO
           ErrorMessage = "Password must start with a capital letter and contain at least one special character (!, @, #)")]
        
         public string Password { get; set; }
-        public int RoleId { get; set; }
+        public Guid RoleId { get; set; }
         public string? PhoneNumber { get; set; }
         public string? Gender { get; set; }
     }

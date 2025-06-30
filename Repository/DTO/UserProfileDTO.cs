@@ -10,7 +10,7 @@ namespace Repository.DTO
 
     public class UserProfileDTO
     {
-        public int UserId { get; set; }
+        public Guid UserId { get; set; }
 
         [Required(ErrorMessage = "Họ tên là bắt buộc")]
         [StringLength(100, ErrorMessage = "Họ tên không được vượt quá 100 ký tự")]

@@ -23,11 +23,11 @@
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[ConsultantUserSchedule]",
+         "Name": "[dbo].[ConsultationBookings]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[ConsultationBookings]",
+         "Name": "[dbo].[Feedback]",
          "ObjectType": 0
       },
       {
@@ -36,14 +36,6 @@
       },
       {
          "Name": "[dbo].[OvulationReminders]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Payment]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Question]",
          "ObjectType": 0
       },
       {
