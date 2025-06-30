@@ -2,26 +2,38 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace Repository.Models;
 
+[Table("Test")]
 public partial class Test
 {
+    [Key]
+    [Column("testId")]
     public Guid TestId { get; set; }
 
+    [Column("name")]
+    [StringLength(100)]
+    [Unicode(false)]
     public string Name { get; set; }
 
+    [Column("description", TypeName = "text")]
     public string Description { get; set; }
 
+    [Column("price", TypeName = "decimal(10, 2)")]
     public decimal Price { get; set; }
 
+    [Column("date")]
     public DateTime Date { get; set; }
+    public bool IsBooked { get; set; }
+    public bool IsDelete { get; set; }
 
-    public bool? IsBooked { get; set; }
-
-    public bool? IsDelete { get; set; }
-
+    [InverseProperty("Test")]
     public virtual ICollection<TestBooking> TestBookings { get; set; } = new List<TestBooking>();
 
+    [InverseProperty("Test")]
     public virtual ICollection<TestResult> TestResults { get; set; } = new List<TestResult>();
 }

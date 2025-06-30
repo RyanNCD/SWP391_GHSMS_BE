@@ -60,21 +60,30 @@ public partial class User
     [Unicode(false)]
     public string Avatar { get; set; }
 
+    [InverseProperty("User")]
     public virtual ICollection<Blog> Blogs { get; set; } = new List<Blog>();
 
+    [InverseProperty("User")]
     public virtual ICollection<Consultant> Consultants { get; set; } = new List<Consultant>();
 
+    [InverseProperty("User")]
     public virtual ICollection<ConsultationBooking> ConsultationBookings { get; set; } = new List<ConsultationBooking>();
 
+    [InverseProperty("User")]
     public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
 
+    [InverseProperty("User")]
     public virtual ICollection<MenstrualCycle> MenstrualCycles { get; set; } = new List<MenstrualCycle>();
 
+    [InverseProperty("User")]
     public virtual ICollection<OvulationReminder> OvulationReminders { get; set; } = new List<OvulationReminder>();
 
+    [InverseProperty("User")]
     public virtual Role Role { get; set; }
 
+    [InverseProperty("User")]
     public virtual ICollection<TestBooking> TestBookings { get; set; } = new List<TestBooking>();
 
+    [InverseProperty("User")]
     public virtual ICollection<TestResult> TestResults { get; set; } = new List<TestResult>();
 }
