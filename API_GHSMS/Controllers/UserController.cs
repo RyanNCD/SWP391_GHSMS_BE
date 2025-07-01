@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Repository.DTO;
+using Repository.Models;
 using Service.Interface;
 
 namespace API_GHSMS.Controllers
@@ -10,90 +11,85 @@ namespace API_GHSMS.Controllers
     {
         private readonly IUserService _userService;
 
+
         public UserController(IUserService userService)
         {
             _userService = userService;
+
         }
 
-        // GET: api/User
         [HttpGet]
-        public async Task<ActionResult<List<UserProfileDTO>>> GetAll()
+        public async Task<ActionResult<List<User>>> GetAll()
         {
             var users = await _userService.GetAllAsync();
             return Ok(users);
         }
 
-        // GET: api/User/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<UserProfileDTO>> GetById(Guid id)
+        public async Task<ActionResult<User>> GetById(Guid id)
         {
-            var user = await _userService.GetByIdAsync(Guid);
+            var user = await _userService.GetByIdAsync(id);
             if (user == null)
-                return NotFound("Không tìm thấy người dùng");
-
+                return NotFound();
             return Ok(user);
         }
 
-        // POST: api/User
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] UserDTO dto)
+        public async Task<ActionResult> Create([FromBody] User user)
         {
-            var result = await _userService.CreateAsync(dto);
+            var result = await _userService.CreateAsync(user);
             if (result > 0)
-                return CreatedAtAction(nameof(GetById), new { id = result }, new { message = "Tạo người dùng thành công", userId = result });
-
-            return BadRequest("Tạo người dùng thất bại");
+                return Ok(new { message = "User created", userId = user.UserId });
+            return BadRequest("Failed to create user");
         }
 
-        // PUT: api/User/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] UserProfileDTO dto)
+        public async Task<ActionResult> Update(Guid id, [FromBody] User user)
         {
-            if (id != dto.UserId)
-                return BadRequest("ID không khớp");
+            if (id != user.UserId)
+                return BadRequest("ID mismatch");
 
             var existing = await _userService.GetByIdAsync(id);
             if (existing == null)
-                return NotFound("Không tìm thấy người dùng");
+                return NotFound();
 
-            var result = await _userService.UpdateAsync(dto);
-            if (result >= 0)
-                return Ok("Cập nhật người dùng thành công");
-
-            return BadRequest("Cập nhật thất bại");
+            var result = await _userService.UpdateAsync(user);
+            if (result > 0)
+                return Ok("User updated");
+            return BadRequest("Update failed");
         }
 
-        // DELETE: api/User/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<ActionResult> Delete(Guid id)
         {
             var result = await _userService.DeleteByIdAsync(id);
             if (result)
-                return Ok("Xóa người dùng thành công");
-
-            return NotFound("Không tìm thấy người dùng");
+            {
+                return Ok("User deleted");
+            }
+            else
+            {
+                return NotFound("User Not Found");
+            }
         }
-
-        // GET: api/User/user-profile/5
         [HttpGet("user-profile/{id}")]
-        public async Task<IActionResult> GetProfile(int id)
+        public async Task<IActionResult> GetProfile(Guid id)
         {
             var profile = await _userService.GetProfileAsync(id);
             if (profile == null)
-                return NotFound("Không tìm thấy hồ sơ");
+                return NotFound();
 
             return Ok(profile);
         }
 
-        // PUT: api/User/user-profile
         [HttpPut("user-profile")]
         public async Task<IActionResult> UpdateProfile([FromBody] UserProfileDTO dto)
         {
             var success = await _userService.UpdateProfileAsync(dto);
             if (!success)
-                return NotFound("Không tìm thấy người dùng");
+                return NotFound("User not found");
 
-            return Ok("Cập nhật hồ sơ thành công");
+            return Ok("Profile updated");
         }
     }
 }
