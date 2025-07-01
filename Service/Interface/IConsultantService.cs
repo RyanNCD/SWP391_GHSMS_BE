@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Service.Interface
 {
-    public interface IConsultantService
+    public interface IConsultantsService
     {
-        Task<List<ConsultantDTO>> GetAllAsync();
-        Task<ConsultantDTO?> GetByIdAsync(int id);
-        Task<bool> CreateAsync(ConsultantDTO dto);
-        Task<bool> UpdateAsync(int id, ConsultantDTO dto);
-        Task<bool> DeleteAsync(int id);
+        Task<bool> CreateConsultants(CreateConsultantsDTO request);
+        Task<List<GetConsultants>> GetConsultants();
+        Task<GetConsultantDetail> GetConsultantDetail(Guid consultansId);
+        Task<bool> DeleteConsultants(Guid consultansId);
+        Task<bool> EditConsultantDetail(Guid consultansId, CreateConsultantsDTO request);
     }
 }

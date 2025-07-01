@@ -10,10 +10,13 @@ namespace Service.Interface
 {
     public interface ITestService
     {
-        Task<int> CreateAsync(TestDTO dto);
-        Task<int> UpdateAsync(TestDTO dto);
-        Task<List<TestDTO>> GetAllAsync();
-        Task<TestDTO?> GetByIdAsync(int id);
+        Task<List<Test>> GetAllAsync();
+        Task<Test> GetByIdAsync(Guid UserId);
+        Task<int> UpdateAsync(Test test);
+        Task<int> CreateAsync(Test test);
+        Task<bool> AddTest(TestDTO test);
+        Task<List<TestResponse>> GetTestByConsutant(Guid ConsutantId);
+        Task<TestDetailResponse> GetTestDetailAsync(Guid TestId);
     }
 
 }
