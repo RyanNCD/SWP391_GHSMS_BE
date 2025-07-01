@@ -3,54 +3,73 @@ using Repository.DTO;
 using Service.Interface;
 
 
-namespace API_GHSMS.Controllers;
-    [Route("api/[controller]")]
+namespace API_GHSMS.Controllers
+{
     [ApiController]
-    public class ConsultantController : ControllerBase
+    [Route("api/v1/consultants")]
+    public class ConsultantsController(IConsultantsService _consultantService) : Controller
     {
-        private readonly IConsultantService _consultantService;
-
-        public ConsultantController(IConsultantService consultantService)
+        [HttpPost("create-consultant")]
+        public async Task<IActionResult> CreateConsultant([FromForm] CreateConsultantsDTO request)
         {
-            _consultantService = consultantService;
+            try
+            {
+                var response = await _consultantService.CreateConsultants(request);
+                if (response == false)
+                {
+                    return Conflict(new { Message = "Email Already Exist" });
+                }
+
+                return StatusCode(200, new { Message = "Create success" });
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(500, ex.Message);
+            }
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
+        [HttpGet("get-Consultants")]
+        public async Task<IActionResult> GetConsultants()
         {
-            var result = await _consultantService.GetAllAsync();
-            return Ok(result);
+            var response = await _consultantService.GetConsultants();
+            return StatusCode(200, new { Message = "Success", Data = response });
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        [HttpGet("get-detail")]
+        public async Task<IActionResult> GetConsultantsDetail([FromQuery] Guid consultantsId)
         {
-            var consultant = await _consultantService.GetByIdAsync(id);
-            if (consultant == null) return NotFound();
-            return Ok(consultant);
+            var response = await _consultantService.GetConsultantDetail(consultantsId);
+            if (response == null)
+            {
+                return NotFound(new { Message = "Data not found" });
+            }
+
+            return StatusCode(200, new { Message = response });
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create([FromBody] ConsultantDTO dto)
+        [HttpDelete("delete-consultants")]
+        public async Task<IActionResult> DeleteConsultants([FromQuery] Guid consultantsId)
         {
-            var success = await _consultantService.CreateAsync(dto);
-            if (!success) return BadRequest("Failed to create consultant");
-            return Ok("Consultant created successfully");
+            var response = await _consultantService.DeleteConsultants(consultantsId);
+            if (response == false)
+            {
+                return NotFound("Consultants not found");
+            }
+
+            return StatusCode(200, new { Message = "Delete success" });
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] ConsultantDTO dto)
+        [HttpPatch("edit-consultants/{consultantsId}")]
+        public async Task<IActionResult> EditConsultants(Guid consultantsId, [FromBody] CreateConsultantsDTO request)
         {
-            var success = await _consultantService.UpdateAsync(id, dto);
-            if (!success) return NotFound("Consultant not found or update failed");
-            return Ok("Consultant updated successfully");
-        }
+            var response = await _consultantService.EditConsultantDetail(consultantsId, request);
+            if (response == false)
+            {
+                return StatusCode(404, new { Message = "Data not found" });
+            }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var success = await _consultantService.DeleteAsync(id);
-            if (!success) return NotFound("Consultant not found or delete failed");
-            return Ok("Consultant deleted successfully");
+            return StatusCode(200, new { Message = "Edit Success" });
         }
     }
+}

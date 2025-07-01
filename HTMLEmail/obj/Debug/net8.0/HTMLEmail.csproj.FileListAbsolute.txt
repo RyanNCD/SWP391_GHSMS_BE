@@ -1,0 +1,12 @@
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\bin\Debug\net8.0\HTMLEmail.deps.json
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\bin\Debug\net8.0\HTMLEmail.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\bin\Debug\net8.0\HTMLEmail.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\obj\Debug\net8.0\HTMLEmail.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\obj\Debug\net8.0\HTMLEmail.AssemblyInfoInputs.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\obj\Debug\net8.0\HTMLEmail.AssemblyInfo.cs
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\obj\Debug\net8.0\HTMLEmail.csproj.CoreCompileInputs.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\obj\Debug\net8.0\HTMLEmail.sourcelink.json
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\obj\Debug\net8.0\HTMLEmail.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\obj\Debug\net8.0\refint\HTMLEmail.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\obj\Debug\net8.0\HTMLEmail.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\HTMLEmail\obj\Debug\net8.0\ref\HTMLEmail.dll

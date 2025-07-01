@@ -1,4 +1,5 @@
-﻿using Repository.Base;
+﻿using Microsoft.EntityFrameworkCore;
+using Repository.Base;
 using Repository.Models;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,10 @@ namespace Repository.Repository
     {
         public UserRepository() { }
         public UserRepository(SWP391GHSMContext context) => _context = context;
-        
+        public async Task<User> GetUserByEmailAsync(string email)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(u => u.Email == email);
+        }
     }
 }

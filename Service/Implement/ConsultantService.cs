@@ -11,76 +11,31 @@ using System.Threading.Tasks;
 
 namespace Service.Implement
 {
-    public class ConsultantService : IConsultantService
+    public class ConsultantsService(ConsultantsRepository _consultantRepository) : IConsultantsService
     {
-        private readonly ConsultantRepository _repository;
-
-        public ConsultantService(ConsultantRepository repository)
+        public async Task<bool> CreateConsultants(CreateConsultantsDTO request)
         {
-            _repository = repository;
+            return await _consultantRepository.CreateConsultants(request);
         }
 
-        public async Task<List<ConsultantDTO>> GetAllAsync()
+        public async Task<bool> DeleteConsultants(Guid consultansId)
         {
-            var consultants = await _repository.GetAllAsync();
-            return consultants.Select(c => new ConsultantDTO
-            {
-                Id = c.ConsultantId,
-                degree = c.Degree ?? "",
-                ExperienceYears = c.ExperienceYears ?? 0,
-                bio = c.Bio ?? "",
-                avatar = c.Avatar ?? ""
-            }).ToList();
+            return await _consultantRepository.DeleteConsultantDetail(consultansId);
         }
 
-        public async Task<ConsultantDTO?> GetByIdAsync(int id)
+        public async Task<bool> EditConsultantDetail(Guid consultansId, CreateConsultantsDTO request)
         {
-            var consultant = await _repository.GetByIdAsync(id);
-            if (consultant == null) return null;
-
-            return new ConsultantDTO
-            {
-                Id = consultant.ConsultantId,
-                degree = consultant.Degree ?? "",
-                ExperienceYears = consultant.ExperienceYears ?? 0,
-                bio = consultant.Bio ?? "",
-                avatar = consultant.Avatar ?? ""
-            };
+            return await _consultantRepository.EditConsultantDetail(consultansId, request);
         }
 
-        public async Task<bool> CreateAsync(ConsultantDTO dto)
+        public async Task<GetConsultantDetail> GetConsultantDetail(Guid consultansId)
         {
-            var entity = new Consultant
-            {
-                Degree = dto.degree,
-                ExperienceYears = dto.ExperienceYears,
-                Bio = dto.bio,
-                Avatar = dto.avatar,
-                UserId = dto.Id // Make sure to set actual UserId
-            };
-
-            return await _repository.CreateAsync(entity) > 0;
+            return await _consultantRepository.GetConsultantDetail(consultansId);
         }
 
-        public async Task<bool> UpdateAsync(int id, ConsultantDTO dto)
+        public async Task<List<GetConsultants>> GetConsultants()
         {
-            var existing = await _repository.GetByIdAsync(id);
-            if (existing == null) return false;
-
-            existing.Degree = dto.degree;
-            existing.ExperienceYears = dto.ExperienceYears;
-            existing.Bio = dto.bio;
-            existing.Avatar = dto.avatar;
-
-            return await _repository.UpdateAsync(existing) > 0;
-        }
-
-        public async Task<bool> DeleteAsync(int id)
-        {
-            var existing = await _repository.GetByIdAsync(id);
-            if (existing == null) return false;
-
-            return await _repository.RemoveAsync(existing);
+            return await _consultantRepository.GetConsultants();
         }
     }
 }

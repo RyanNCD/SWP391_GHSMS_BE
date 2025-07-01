@@ -46,3 +46,19 @@ D:\SWP\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.dll
 D:\SWP\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\refint\Service.dll
 D:\SWP\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.pdb
 D:\SWP\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\ref\Service.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\bin\Debug\net8.0\Service.deps.json
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\bin\Debug\net8.0\Service.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\bin\Debug\net8.0\Service.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\bin\Debug\net8.0\Repository.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\bin\Debug\net8.0\Repository.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.sourcelink.json
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\refint\Service.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\Service.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Service\obj\Debug\net8.0\ref\Service.dll

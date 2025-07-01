@@ -2,19 +2,9 @@
 using Microsoft.IdentityModel.Tokens;
 using Repository.Base;
 using Repository.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
-using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.Text;
-
-
 using Microsoft.Extensions.Configuration;
 
 
@@ -70,7 +60,7 @@ namespace Repository.Repository
             return GenerateJwtToken(user);
         }
 
-        public async Task<User> RegisterAsync(string fullName, string email, string password, int roleId, string phoneNumber, string gender)
+        public async Task<User> RegisterAsync(string fullName, string email, string password, Guid roleId, string phoneNumber, string gender)
         {
             // Kiểm tra email trùng
             var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);

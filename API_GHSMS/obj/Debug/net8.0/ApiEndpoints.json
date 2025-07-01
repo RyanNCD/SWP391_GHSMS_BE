@@ -434,6 +434,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API_GHSMS.Controllers.ChatController",
+    "Method": "GeniniChatBotMarkdown",
+    "RelativePath": "api/v1/chat/chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Repository.DTO.PromtAI",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API_GHSMS.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

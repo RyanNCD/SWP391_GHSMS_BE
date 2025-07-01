@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "KFAB+qBnqtYhgOHEKwcWEbUKdODSPrwH4o+aXGOFAnI=",
+  "Hash": "wxAnaK4fjJfjmacmM0789aIVxLnBHoX9gd4ESH0MOlk=",
   "Source": "API_GHSMS",
   "BasePath": "_content/API_GHSMS",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

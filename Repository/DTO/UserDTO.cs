@@ -5,6 +5,8 @@ namespace Repository.DTO
 {
     public class UserDTO
     {
+        public Guid UserId { get; set; }
+
         [Required(ErrorMessage = "Họ tên là bắt buộc")]
         [StringLength(100, ErrorMessage = "Họ tên không được vượt quá 100 ký tự")]
         public string FullName { get; set; } = null!;
@@ -19,14 +21,16 @@ namespace Repository.DTO
         public string Password { get; set; } = null!;
 
         [Phone(ErrorMessage = "Số điện thoại không hợp lệ")]
-        public string? phoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
 
       
-        public string? Gender { get; set; }
+        public string Gender { get; set; }
 
-        public string? Address { get; set; }
+        public string Address { get; set; }
 
         public int RoleId { get; set; }
+
+        public DateTime? CreateAt { get; set; }
 
         public string? Avatar { get; set; }
     }

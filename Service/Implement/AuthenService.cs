@@ -23,7 +23,7 @@ namespace Service.Implement
             return await _authenRepository.LoginWithToken(email, password);
         }
 
-        public async Task<User> RegisterAsync(string fullName, string email, string password, int roleId, string phoneNumber, string gender)
+        public async Task<User> RegisterAsync(string fullName, string email, string password, Guid roleId, string phoneNumber, string gender)
         {
             return await _authenRepository.RegisterAsync(fullName, email, password, roleId, phoneNumber, gender);
         }

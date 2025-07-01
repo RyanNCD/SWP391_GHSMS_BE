@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\API_GHSMS.csproj": {}
+    "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\API_GHSMS\\API_GHSMS.csproj": {}
   },
   "projects": {
-    "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\API_GHSMS.csproj": {
+    "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\API_GHSMS\\API_GHSMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\API_GHSMS.csproj",
+        "projectUniqueName": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\API_GHSMS\\API_GHSMS.csproj",
         "projectName": "API_GHSMS",
-        "projectPath": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\API_GHSMS.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\SWP\\SWP391_GHSMS_BE\\API_GHSMS\\obj\\",
+        "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\API_GHSMS\\API_GHSMS.csproj",
+        "packagesPath": "C:\\Users\\Phi\\.nuget\\packages\\",
+        "outputPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\API_GHSMS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Phi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Service.csproj": {
-                "projectPath": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Service.csproj"
+              "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\EmailService\\EmailService.csproj": {
+                "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\EmailService\\EmailService.csproj"
+              },
+              "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\PayOSService\\PayOSService.csproj": {
+                "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\PayOSService\\PayOSService.csproj"
+              },
+              "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Service\\Service.csproj": {
+                "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Service\\Service.csproj"
               }
             }
           }
@@ -48,7 +54,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -108,24 +115,100 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository.csproj": {
+    "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\EmailService\\EmailService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository.csproj",
-        "projectName": "Repository",
-        "projectPath": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\obj\\",
+        "projectUniqueName": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\EmailService\\EmailService.csproj",
+        "projectName": "EmailService",
+        "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\EmailService\\EmailService.csproj",
+        "packagesPath": "C:\\Users\\Phi\\.nuget\\packages\\",
+        "outputPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\EmailService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Phi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\HTMLEmail\\HTMLEmail.csproj": {
+                "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\HTMLEmail\\HTMLEmail.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\HTMLEmail\\HTMLEmail.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\HTMLEmail\\HTMLEmail.csproj",
+        "projectName": "HTMLEmail",
+        "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\HTMLEmail\\HTMLEmail.csproj",
+        "packagesPath": "C:\\Users\\Phi\\.nuget\\packages\\",
+        "outputPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\HTMLEmail\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -152,7 +235,158 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\PayOSService\\PayOSService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\PayOSService\\PayOSService.csproj",
+        "projectName": "PayOSService",
+        "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\PayOSService\\PayOSService.csproj",
+        "packagesPath": "C:\\Users\\Phi\\.nuget\\packages\\",
+        "outputPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\PayOSService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "payOS": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Phi\\.nuget\\packages\\",
+        "outputPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\EmailService\\EmailService.csproj": {
+                "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\EmailService\\EmailService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -161,6 +395,22 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.6, )"
+            },
+            "HtmlSanitizer": {
+              "target": "Package",
+              "version": "[9.0.886, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -209,24 +459,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Service.csproj": {
+    "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Service.csproj",
+        "projectUniqueName": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\SWP\\SWP391_GHSMS_BE\\Service\\obj\\",
+        "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Phi\\.nuget\\packages\\",
+        "outputPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Phi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -242,8 +492,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository.csproj": {
-                "projectPath": "D:\\SWP\\SWP391_GHSMS_BE\\Repository\\Repository.csproj"
+              "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Repository\\Repository.csproj": {
+                "projectPath": "E:\\Study\\FPTU\\Ky 8.5\\SWP391\\BE\\SWP391_GHSMS_BE\\Repository\\Repository.csproj"
               }
             }
           }
@@ -257,7 +507,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -288,7 +539,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
