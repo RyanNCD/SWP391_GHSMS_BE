@@ -24,31 +24,31 @@ public partial class TestResult
     [Column("typeSTIs")]
     [StringLength(100)]
     [Unicode(false)]
-    public string TypeStis { get; set; }
+    public string? TypeStis { get; set; }
 
     [Column("testSample")]
     [StringLength(100)]
     [Unicode(false)]
-    public string TestSample { get; set; }
+    public string? TestSample { get; set; }
 
     [Column("testBlood")]
     [StringLength(100)]
     [Unicode(false)]
-    public string TestBlood { get; set; }
+    public string? TestBlood { get; set; }
 
     [Column("testUrine")]
     [StringLength(100)]
     [Unicode(false)]
-    public string TestUrine { get; set; }
+    public string? TestUrine { get; set; }
 
     [Column("diagnosticResults", TypeName = "text")]
-    public string DiagnosticResults { get; set; }
+    public string? DiagnosticResults { get; set; }
 
     [ForeignKey("TestId")]
     [InverseProperty("TestResults")]
-    public virtual Test Test { get; set; }
+    public virtual Test Test { get; set; } = null!;
 
     [ForeignKey("UserId")]
     [InverseProperty("TestResults")]
-    public virtual User User { get; set; }
+    public virtual User User { get; set; } = null!;
 }

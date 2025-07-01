@@ -32,7 +32,7 @@ public partial class Blog
     [Column("image")]
     [StringLength(255)]
     [Unicode(false)]
-    public string Image { get; set; }
+    public string? Image { get; set; }
 
     [ForeignKey("AuthorId")]
     [InverseProperty("Blogs")]

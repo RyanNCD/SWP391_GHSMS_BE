@@ -24,20 +24,20 @@ public partial class OvulationReminder
 
     [Column("type")]
     [StringLength(50)]
-    public string Type { get; set; }
+    public string? Type { get; set; }
 
     [Column("note")]
     [StringLength(255)]
-    public string Note { get; set; }
+    public string? Note { get; set; }
 
     [Column("cycleDay")]
     public int? CycleDay { get; set; }
 
     [ForeignKey("CyclesId")]
     [InverseProperty("OvulationReminders")]
-    public virtual MenstrualCycle Cycles { get; set; }
+    public virtual MenstrualCycle Cycles { get; set; } = null!;
 
     [ForeignKey("UserId")]
     [InverseProperty("OvulationReminders")]
-    public virtual User User { get; set; }
+    public virtual User User { get; set; } = null!;
 }

@@ -19,32 +19,32 @@ public partial class User
     [Column("fullName")]
     [StringLength(100)]
     [Unicode(false)]
-    public string FullName { get; set; }
+    public string FullName { get; set; } = null!;
 
     [Column("email")]
     [StringLength(100)]
     [Unicode(false)]
-    public string Email { get; set; }
+    public string Email { get; set; } = null!;
 
     [Column("passwordHash")]
     [StringLength(255)]
     [Unicode(false)]
-    public string PasswordHash { get; set; }
+    public string PasswordHash { get; set; } = null!;
 
     [Column("phoneNumber")]
     [StringLength(20)]
     [Unicode(false)]
-    public string PhoneNumber { get; set; }
+    public string? PhoneNumber { get; set; }
 
     [Column("gender")]
     [StringLength(20)]
     [Unicode(false)]
-    public string Gender { get; set; }
+    public string? Gender { get; set; }
 
     [Column("address")]
     [StringLength(255)]
     [Unicode(false)]
-    public string Address { get; set; }
+    public string? Address { get; set; }
 
     [Column("roleId")]
     public Guid RoleId { get; set; }
@@ -58,33 +58,29 @@ public partial class User
     [Column("avatar")]
     [StringLength(255)]
     [Unicode(false)]
-    public string Avatar { get; set; }
+    public string? Avatar { get; set; }
 
     [InverseProperty("Author")]
     public virtual ICollection<Blog> Blogs { get; set; } = new List<Blog>();
-
     [InverseProperty("User")]
     public virtual ICollection<Consultant> Consultants { get; set; } = new List<Consultant>();
-
     [InverseProperty("User")]
     public virtual ICollection<ConsultationBooking> ConsultationBookings { get; set; } = new List<ConsultationBooking>();
-
+    [InverseProperty("User")]
+    public virtual ICollection<Ewallet> Ewallets { get; set; } = new List<Ewallet>();
     [InverseProperty("User")]
     public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
-
     [InverseProperty("User")]
     public virtual ICollection<MenstrualCycle> MenstrualCycles { get; set; } = new List<MenstrualCycle>();
-
     [InverseProperty("User")]
     public virtual ICollection<OvulationReminder> OvulationReminders { get; set; } = new List<OvulationReminder>();
-
+    [InverseProperty("User")]
+    public virtual ICollection<Question> Questions { get; set; } = new List<Question>();
     [ForeignKey("RoleId")]
-    [InverseProperty("Users")]
+    [InverseProperty("User")]
     public virtual Role Role { get; set; }
-
     [InverseProperty("User")]
     public virtual ICollection<TestBooking> TestBookings { get; set; } = new List<TestBooking>();
-
     [InverseProperty("User")]
     public virtual ICollection<TestResult> TestResults { get; set; } = new List<TestResult>();
 }

@@ -8,6 +8,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Repository.Models;
 
+
 [Table("Test")]
 public partial class Test
 {
@@ -18,18 +19,18 @@ public partial class Test
     [Column("name")]
     [StringLength(100)]
     [Unicode(false)]
-    public string Name { get; set; }
+    public string Name { get; set; } = null!;
 
     [Column("description", TypeName = "text")]
-    public string Description { get; set; }
+    public string? Description { get; set; }
 
     [Column("price", TypeName = "decimal(10, 2)")]
     public decimal Price { get; set; }
 
     [Column("date")]
     public DateTime Date { get; set; }
-    public bool IsBooked { get; set; }
-    public bool IsDelete { get; set; }
+    public bool isBooked { get; set; }
+    public bool isDelete { get; set; }
 
     [InverseProperty("Test")]
     public virtual ICollection<TestBooking> TestBookings { get; set; } = new List<TestBooking>();

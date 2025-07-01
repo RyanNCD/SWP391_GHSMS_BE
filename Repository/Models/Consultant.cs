@@ -20,21 +20,24 @@ public partial class Consultant
     [Column("degree")]
     [StringLength(100)]
     [Unicode(false)]
-    public string Degree { get; set; }
+    public string? Degree { get; set; }
 
     [Column("experienceYears")]
     public int? ExperienceYears { get; set; }
 
     [Column("bio", TypeName = "text")]
-    public string Bio { get; set; }
+    public string? Bio { get; set; }
 
     [Column("avatar")]
     [StringLength(255)]
     [Unicode(false)]
-    public string Avatar { get; set; }
+    public string? Avatar { get; set; }
 
     [InverseProperty("Consultant")]
     public virtual ICollection<ConsultationBooking> ConsultationBookings { get; set; } = new List<ConsultationBooking>();
+
+    [InverseProperty("Consultant")]
+    public virtual ICollection<Question> Questions { get; set; } = new List<Question>();
 
     [ForeignKey("UserId")]
     [InverseProperty("Consultants")]

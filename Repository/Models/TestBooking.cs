@@ -3,8 +3,8 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace Repository.Models;
 
@@ -27,15 +27,15 @@ public partial class TestBooking
     [Column("status")]
     [StringLength(20)]
     [Unicode(false)]
+
     public string Status { get; set; }
 
+    [InverseProperty("TestBooking")]
+    public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
     [ForeignKey("TestId")]
     [InverseProperty("TestBookings")]
     public virtual Test Test { get; set; }
-
-    [InverseProperty("TestBooking")]
     public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
-
     [ForeignKey("UserId")]
     [InverseProperty("TestBookings")]
     public virtual User User { get; set; }

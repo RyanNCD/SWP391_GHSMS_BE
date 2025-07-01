@@ -27,10 +27,18 @@ public partial class Feedback
     public int? Rating { get; set; }
 
     [Column("comment", TypeName = "text")]
-    public string Comment { get; set; }
+    public string? Comment { get; set; }
 
     [Column("createAt", TypeName = "datetime")]
     public DateTime? CreateAt { get; set; }
+
+    [ForeignKey("ConsultationBookingId")]
+    [InverseProperty("Feedbacks")]
+    public virtual ConsultationBooking? ConsultationBooking { get; set; }
+
+    [ForeignKey("TestBookingId")]
+    [InverseProperty("Feedbacks")]
+    public virtual TestBooking? TestBooking { get; set; }
 
     [ForeignKey("UserId")]
     [InverseProperty("Feedbacks")]
