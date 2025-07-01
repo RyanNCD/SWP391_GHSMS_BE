@@ -27,7 +27,7 @@ namespace Repository.Repository
                 }
 
                 var getTest = await _context.Tests.FirstOrDefaultAsync(x => x.TestId == request.TestId);
-                getTest.IsBooked = true;
+                getTest.isBooked = true;
 
                 _context.Tests.Update(getTest);
                 var createBooking = new TestBooking

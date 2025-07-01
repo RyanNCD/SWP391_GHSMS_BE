@@ -27,8 +27,8 @@ namespace Repository.Repository
                     Description = request.Description,
                     Price = request.Price,
                     Date = request.Date,
-                    IsBooked = false,
-                    IsDelete = false
+                    isBooked = false,
+                    isDelete = false
                 };
 
 
@@ -46,7 +46,7 @@ namespace Repository.Repository
 
         public async Task<List<TestResponse>> GetTestsByConsutant(Guid ConsutantId)
         {
-            var getTests = await _context.Tests.Where(x => x.IsDelete == false).ToListAsync();
+            var getTests = await _context.Tests.Where(x => x.isDelete == false).ToListAsync();
 
             var mapItem = getTests.Select(c => new TestResponse
             {
@@ -55,8 +55,8 @@ namespace Repository.Repository
                 Description = c.Description,
                 Price = c.Price,
                 Date = c.Date,
-                IsBooked = c.IsBooked,
-                IsDelete = c.IsDelete
+                IsBooked = c.isBooked,
+                IsDelete = c.isDelete
             }).ToList();
 
             return mapItem;
@@ -80,8 +80,8 @@ namespace Repository.Repository
                     Description = getDetail.Description,
                     Price = getDetail.Price,
                     Date = getDetail.Date,
-                    IsDelete = getDetail.IsDelete,
-                    IsBooked = getDetail.IsBooked
+                    IsDelete = getDetail.isDelete,
+                    IsBooked = getDetail.isBooked
                 }
             };
 
