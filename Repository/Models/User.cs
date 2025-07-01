@@ -60,7 +60,7 @@ public partial class User
     [Unicode(false)]
     public string Avatar { get; set; }
 
-    [InverseProperty("User")]
+    [InverseProperty("Author")]
     public virtual ICollection<Blog> Blogs { get; set; } = new List<Blog>();
 
     [InverseProperty("User")]
@@ -78,7 +78,8 @@ public partial class User
     [InverseProperty("User")]
     public virtual ICollection<OvulationReminder> OvulationReminders { get; set; } = new List<OvulationReminder>();
 
-    [InverseProperty("User")]
+    [ForeignKey("RoleId")]
+    [InverseProperty("Users")]
     public virtual Role Role { get; set; }
 
     [InverseProperty("User")]

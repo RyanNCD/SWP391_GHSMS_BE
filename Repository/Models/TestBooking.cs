@@ -33,6 +33,9 @@ public partial class TestBooking
     [InverseProperty("TestBookings")]
     public virtual Test Test { get; set; }
 
+    [InverseProperty("TestBooking")]
+    public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
+
     [ForeignKey("UserId")]
     [InverseProperty("TestBookings")]
     public virtual User User { get; set; }
