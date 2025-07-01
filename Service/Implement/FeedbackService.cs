@@ -32,7 +32,7 @@ namespace Service.Implement
             return await _repository.CreateAsync(feedback);
         }
 
-        public async Task<int> DeleteAsync(int id)
+        public async Task<Guid> DeleteAsync(Guid id)
         {
             var feedback = await _repository.GetByIdAsync(id);
             if (feedback == null)
@@ -58,7 +58,7 @@ namespace Service.Implement
             }).ToList();
         }
 
-        public async Task<FeedbackDTO> GetByIdAsync(int id)
+        public async Task<FeedbackDTO> GetByIdAsync(Guid id)
         {
             var f = await _repository.GetByIdAsync(id);
             if (f == null) return null;
