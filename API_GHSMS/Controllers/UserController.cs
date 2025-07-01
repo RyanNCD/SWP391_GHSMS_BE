@@ -25,9 +25,9 @@ namespace API_GHSMS.Controllers
 
         // GET: api/User/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<UserProfileDTO>> GetById(int id)
+        public async Task<ActionResult<UserProfileDTO>> GetById(Guid id)
         {
-            var user = await _userService.GetByIdAsync(id);
+            var user = await _userService.GetByIdAsync(Guid);
             if (user == null)
                 return NotFound("Không tìm thấy người dùng");
 

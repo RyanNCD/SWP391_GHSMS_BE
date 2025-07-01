@@ -31,7 +31,7 @@ namespace API_GHSMS.Controllers;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] ConsultantDTO dto)
+        public async Task<IActionResult> Create([FromBody] Consultants dto)
         {
             var success = await _consultantService.CreateAsync(dto);
             if (!success) return BadRequest("Failed to create consultant");
@@ -39,7 +39,7 @@ namespace API_GHSMS.Controllers;
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] ConsultantDTO dto)
+        public async Task<IActionResult> Update(int id, [FromBody] Consultants dto)
         {
             var success = await _consultantService.UpdateAsync(id, dto);
             if (!success) return NotFound("Consultant not found or update failed");
