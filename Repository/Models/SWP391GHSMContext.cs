@@ -37,18 +37,19 @@ public partial class SWP391GHSMContext : DbContext
 
     public virtual DbSet<TestResult> TestResults { get; set; }
 
+    public virtual DbSet<Transaction> Transactions { get; set; }
+
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
     => optionsBuilder.UseSqlServer("Server=DESKTOP-QF84DQL\\SQLEXPRESS; Database=SWP391_GHSM;User Id=sa;Password=12345;Encrypt=True;TrustServerCertificate=True");
 
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Blog>(entity =>
         {
-            entity.HasKey(e => e.BlogId).HasName("PK__Blog__FA0AA72D606D223D");
+            entity.HasKey(e => e.BlogId).HasName("PK__Blog__FA0AA72D0DF423F4");
 
             entity.ToTable("Blog");
 
@@ -82,7 +83,7 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<Consultant>(entity =>
         {
-            entity.HasKey(e => e.ConsultantId).HasName("PK__Consulta__8E3CA2FFA2102723");
+            entity.HasKey(e => e.ConsultantId).HasName("PK__Consulta__8E3CA2FF8924A6DD");
 
             entity.Property(e => e.ConsultantId)
                 .ValueGeneratedNever()
@@ -109,7 +110,7 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<ConsultationBooking>(entity =>
         {
-            entity.HasKey(e => e.ConsultationBookingId).HasName("PK__Consulta__3CF475EF0258D9C8");
+            entity.HasKey(e => e.ConsultationBookingId).HasName("PK__Consulta__3CF475EF385ABB67");
 
             entity.Property(e => e.ConsultationBookingId)
                 .ValueGeneratedNever()
@@ -146,7 +147,7 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<Feedback>(entity =>
         {
-            entity.HasKey(e => e.FeedbackId).HasName("PK__Feedback__2613FD2437491498");
+            entity.HasKey(e => e.FeedbackId).HasName("PK__Feedback__2613FD24743384A1");
 
             entity.ToTable("Feedback");
 
@@ -173,7 +174,7 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<MenstrualCycle>(entity =>
         {
-            entity.HasKey(e => e.CyclesId).HasName("PK__Menstrua__674DB3A538D7858B");
+            entity.HasKey(e => e.CyclesId).HasName("PK__Menstrua__674DB3A58EDF84ED");
 
             entity.Property(e => e.CyclesId)
                 .ValueGeneratedNever()
@@ -190,7 +191,7 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<OvulationReminder>(entity =>
         {
-            entity.HasKey(e => e.ReminderId).HasName("PK__Ovulatio__09DAAAE3BC1D2E3C");
+            entity.HasKey(e => e.ReminderId).HasName("PK__Ovulatio__09DAAAE3A801E9F4");
 
             entity.Property(e => e.ReminderId)
                 .ValueGeneratedNever()
@@ -218,11 +219,11 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.RoleId).HasName("PK__Role__CD98462AB52BD908");
+            entity.HasKey(e => e.RoleId).HasName("PK__Role__CD98462ADE3C2B5E");
 
             entity.ToTable("Role");
 
-            entity.HasIndex(e => e.RoleName, "UQ__Role__B194786112D2D429").IsUnique();
+            entity.HasIndex(e => e.RoleName, "UQ__Role__B1947861665C303A").IsUnique();
 
             entity.Property(e => e.RoleId)
                 .ValueGeneratedNever()
@@ -259,7 +260,7 @@ public partial class SWP391GHSMContext : DbContext
 
         modelBuilder.Entity<TestBooking>(entity =>
         {
-            entity.HasKey(e => e.TestBookingId).HasName("PK__TestBook__383DA4ED2715A377");
+            entity.HasKey(e => e.TestBookingId).HasName("PK__TestBook__383DA4ED75F6C7D2");
 
             entity.ToTable("TestBooking");
 
@@ -330,13 +331,27 @@ public partial class SWP391GHSMContext : DbContext
                 .HasConstraintName("FK__TestResul__userI__0E6E26BF");
         });
 
+        modelBuilder.Entity<Transaction>(entity =>
+        {
+            entity.ToTable("Transaction");
+
+            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.CreateAt).HasColumnType("datetime");
+            entity.Property(e => e.Url).IsRequired();
+
+            entity.HasOne(d => d.Booking).WithMany(p => p.Transactions)
+                .HasForeignKey(d => d.BookingId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Transaction_TestBooking");
+        });
+
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__User__CB9A1CFF29F54215");
+            entity.HasKey(e => e.UserId).HasName("PK__User__CB9A1CFF3389BC70");
 
             entity.ToTable("User");
 
-            entity.HasIndex(e => e.Email, "UQ__User__AB6E61641722C007").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__User__AB6E61645B487483").IsUnique();
 
             entity.Property(e => e.UserId)
                 .ValueGeneratedNever()
