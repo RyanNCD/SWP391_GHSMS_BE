@@ -58,3 +58,8 @@ E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\refin
 E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.pdb
 E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\ref\Repository.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\bin\Debug\net8.0\EmailService.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\bin\Debug\net8.0\HTMLEmail.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\bin\Debug\net8.0\EmailService.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\bin\Debug\net8.0\HTMLEmail.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date

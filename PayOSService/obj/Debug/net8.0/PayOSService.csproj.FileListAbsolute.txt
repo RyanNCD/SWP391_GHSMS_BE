@@ -1,0 +1,6 @@
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\PayOSService\obj\Debug\net8.0\PayOSService.csproj.AssemblyReference.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\PayOSService\obj\Debug\net8.0\PayOSService.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\PayOSService\obj\Debug\net8.0\PayOSService.AssemblyInfoInputs.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\PayOSService\obj\Debug\net8.0\PayOSService.AssemblyInfo.cs
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\PayOSService\obj\Debug\net8.0\PayOSService.csproj.CoreCompileInputs.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\PayOSService\obj\Debug\net8.0\PayOSService.sourcelink.json

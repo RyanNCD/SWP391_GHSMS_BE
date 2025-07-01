@@ -27,7 +27,7 @@
 //        if (otherUser.Equals("undefined")) throw new HubException("User not found");
 //        var groupName = GetGroupName(Context.User.Claims.Single(x => x.Type == ClaimTypes.Email).Value, otherUser);
 //        // _logger.Information($"Group name: {groupName}");
-//        await Groups.AddToGroupAsync(Context.ConnectionId, groupName);
+//        await Groups.AddToGroupAsync(Context.ConnectionId, groupName);S
 //        var group = await AddToGroup(groupName);
 //        var messages = await GetMessageThread(Context.User.Claims.Single(x => x.Type == ClaimTypes.Email).Value, otherUser);
 //        await Clients.Caller.SendAsync("ReceiveMessageThread", messages);

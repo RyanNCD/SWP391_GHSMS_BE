@@ -1,0 +1,16 @@
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\bin\Debug\net8.0\EmailService.deps.json
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\bin\Debug\net8.0\EmailService.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\bin\Debug\net8.0\EmailService.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\bin\Debug\net8.0\HTMLEmail.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\bin\Debug\net8.0\HTMLEmail.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\EmailService.csproj.AssemblyReference.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\EmailService.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\EmailService.AssemblyInfoInputs.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\EmailService.AssemblyInfo.cs
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\EmailService.csproj.CoreCompileInputs.cache
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\EmailService.sourcelink.json
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\EmailSer.199DDF96.Up2Date
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\EmailService.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\refint\EmailService.dll
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\EmailService.pdb
+E:\Study\FPTU\Ky 8.5\SWP391\BE\SWP391_GHSMS_BE\EmailService\obj\Debug\net8.0\ref\EmailService.dll
