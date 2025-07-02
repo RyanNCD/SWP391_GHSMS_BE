@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Templates\Notification.html" />
+    <None Remove="Templates\RegisterActiveEmail.html" />
+    <None Remove="Templates\TestResult.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Templates\Notification.html" />
+    <EmbeddedResource Include="Templates\RegisterActiveEmail.html" />
+    <EmbeddedResource Include="Templates\TestResult.html" />
+  </ItemGroup>
+
 </Project>
