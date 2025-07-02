@@ -7,7 +7,7 @@ using Microsoft.Extensions.Options;
 
 namespace EmailService.Implement
 {
-    class EmailSender : IEmailSender
+    public class EmailSender : IEmailSender
     {
         private readonly SendMailConfig _config;
         public EmailSender(IOptions<SendMailConfig> config)
