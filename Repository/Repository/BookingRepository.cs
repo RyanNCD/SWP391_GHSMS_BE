@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Repository
 {
-    public class BookingRepository(SWP391GHSMContext _context, IEmailSender _sender) : GenericRepository<TestBooking>
+    public class BookingRepository(SWP391GHSMContext _context, IEmailSender _sender)
     {
         public async Task<string> Booking(BookingDTO request)
         {
