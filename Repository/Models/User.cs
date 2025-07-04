@@ -77,7 +77,7 @@ public partial class User
     [InverseProperty("User")]
     public virtual ICollection<Question> Questions { get; set; } = new List<Question>();
     [ForeignKey("RoleId")]
-    [InverseProperty("User")]
+    [InverseProperty("Users")]
     public virtual Role Role { get; set; }
     [InverseProperty("User")]
     public virtual ICollection<TestBooking> TestBookings { get; set; } = new List<TestBooking>();
