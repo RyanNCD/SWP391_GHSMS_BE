@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "IpPa58QSWbY=",
+  "success": true,
+  "projectFilePath": "D:\\SWPBE\\SWP391_GHSMS_BE\\EmailService\\EmailService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.options\\9.0.6\\microsoft.extensions.options.9.0.6.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.6\\microsoft.extensions.primitives.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

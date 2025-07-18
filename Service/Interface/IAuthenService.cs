@@ -9,7 +9,7 @@ namespace Service.Interface
 {
     public interface IAuthenService
     {
-        Task<string> LoginWithToken(string email, string password);
-        Task<User> RegisterAsync(string fullName, string email, string password, int roleId, string phoneNumber, string gender);
+        Task<UserResponseModel> RegisterAsync(UserRegistrationRequest request);
+        Task<AuthenticationModel> LoginWithEmailPasswordAsync(LoginRequest request);
     }
 }

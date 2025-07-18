@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Repository.DTO;
 using Service.Interface;
@@ -17,9 +18,9 @@ namespace API_GHSMS.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
+        public async Task<IActionResult> Login([FromBody] LoginRequest loginDto)
         {
-            var token = await _authenService.LoginWithToken(loginDto.Email, loginDto.Password);
+            var token = await _authenService.LoginWithEmailPasswordAsync(loginDto.Email, loginDto.Password);
             if (token == null)
                 return Unauthorized(new { message = "Invalid credentials." });
 
